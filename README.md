@@ -1,3 +1,5 @@
 # Portfolio C10
+An instance of a portfolio website designed for Cohort C10 utilizing React.js.
 
-npx create-create-app portfolio-c10
+## Website
+(bocacode.github.io/portfolio-c10)[https://bocacode.github.io/portfolio-c10/]
