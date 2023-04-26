@@ -17,18 +17,18 @@
 
   {
     "id": 3,
-    "name": "BlueNight in Seoul",
-    "content": "Clock script",
-    "website": "https://bocacode.com",
-    "cover": "https://picsum.photos/400/400?random=3"
+    "name": "BlueNight in Seoul ",
+    "content": "We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to create a clock that displays the current time in Seoul, Korea.",
+    "website": "https://jsohndata.github.io/bluenight-in-seoul",
+    "cover": "/images/bluenight.webp"
   },
 
   {
     "id": 4,
     "name": "About Me",
     "content": "About Me you fool",
-    "website": "https://bocacode.com",
-    "cover": "https://picsum.photos/400/400?random=4"
+    "website": "https://jsohndata.github.io/cogito-ergo-sum/",
+    "cover": "/images/cogito.webp"
   },  
 
   {
