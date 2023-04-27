@@ -1,6 +1,6 @@
-import { Col, Card } from "react-bootstrap";
+import { Col, Card, Button, Image } from "react-bootstrap";
 
-export default function GalleryCard ({ data:{id, name, content, website, cover} }) {
+export default function GalleryCard ({ data:{id, name, about, website, cover} }) {
   
   return (
     <Col key={id} md={4}>
@@ -12,13 +12,16 @@ export default function GalleryCard ({ data:{id, name, content, website, cover} 
             src={cover} /></a>
         </figure>
 
-        <article>
-          <header>
-            <h2>{name}</h2>
-            <p>{content}</p>
-          </header>
-        </article>
+        <div className="content">
+          <h3>{name}</h3>
+          <p>{about}</p>
 
+          <div className="icon text-center">
+            <Image src="/portfolio-c10/icon/nav/react.svg" fluid />
+            <Image src="/portfolio-c10/icon/nav/javascript.svg" fluid />
+            <Image src="/portfolio-c10/icon/nav/css.svg" fluid />            
+          </div>
+        </div>
       </Card>
     </Col>
   )

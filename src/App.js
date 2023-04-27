@@ -1,8 +1,7 @@
-import Header from "./components/Header.jsx";
-import About from "./components/About.jsx";
+import About from "./components/About";
 import Gallery from "./components/Gallery"
-import Skill from "./components/Skill.jsx";
-import Footer from "./components/Footer.jsx";
+import Skill from "./components/Skill";
+import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
@@ -11,7 +10,6 @@ import './App.css';
 function App() {
   return (
     <>
-      <Header />
       <About />
       <Gallery />
       <Skill />
