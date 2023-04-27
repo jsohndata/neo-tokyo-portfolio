@@ -1,6 +1,11 @@
-import { Col, Card, Button, Image } from "react-bootstrap";
+import { Col, Card, Image } from "react-bootstrap";
 
 export default function GalleryCard ({ data:{id, name, about, website, cover} }) {
+
+  // const handleSiteLaunch = websiteUrl => {
+  //   console.log(websiteUrl);
+  //   window.open(websiteUrl, "_blank");
+  // }
   
   return (
     <Col key={id} md={4}>

@@ -4,7 +4,7 @@ import Skill from "./components/Skill";
 import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
+import './styles/App.css';
 
 
 function App() {

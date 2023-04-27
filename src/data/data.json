@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "name": "Kardashev Scale",
     "about": "In Week 4 of BocaCode (C-10), students are taught the fundamentals of web development, including HTML and CSS. As part of the class project, we applied this knowledge to create a web page that explains the concept of the Kardashev Scale.",
     "website": "https://jsohndata.github.io/kardashev-scale/",
@@ -8,7 +8,7 @@
   },
 
   {
-    "id": 3,
+    "id": 2,
     "name": "BlueNight in Seoul ",
     "about": "We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to create a clock that displays the current time in Seoul, Korea.",
     "website": "https://jsohndata.github.io/bluenight-in-seoul",
@@ -16,7 +16,7 @@
   },
 
   {
-    "id": 4,
+    "id": 3,
     "name": "Cogito Ergo Sum",
     "about": "This is a mini profile page created using React.js and Bootstrap based on Rene Descartes' famous philosophical statement \"Ergo Cogito Sum\" which means \"I think, therefore I am.\"",
     "website": "https://jsohndata.github.io/cogito-ergo-sum/",
@@ -24,7 +24,7 @@
   },  
 
   {
-    "id": 5,
+    "id": 4,
     "name": "Cozy Counter",
     "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
     "website": "https://jsohndata.github.io/cozy-counter/",
@@ -32,18 +32,10 @@
   },
 
   {
-    "id": 6,
-    "name": "Timber Login",
-    "about": "React Login",
-    "website": "https://bocacode.com",
-    "cover": "https://picsum.photos/400/400?random=6"
-  },  
-
-  {
-    "id": 7,
-    "name": "Quiz App",
-    "about": "React Quizz",
-    "website": "https://bocacode.com",
-    "cover": "https://picsum.photos/400/400?random=7"
+    "id": 5,
+    "name": "Quizz App",
+    "about": "A quiz application designed for studying about the usage of useState() and props in React.js.",
+    "website": "https://jsohndata.github.io/quizz-app",
+    "cover": "/portfolio-c10/images/quizz-app.webp"
   }
 ]
