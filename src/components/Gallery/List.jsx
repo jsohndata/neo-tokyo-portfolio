@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import GalleryCard from "./GalleryCard.jsx";
-import data from "../../data/data.json";
+import data from "../../data/gallery.json";
 
 export default function List () {
 
@@ -12,7 +12,7 @@ export default function List () {
         </Col>
       </Row>
 
-      <Row className="g-3">
+      <Row className="g-3 justify-content-center">
         {
           data.map( 
             (element) => {

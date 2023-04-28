@@ -1,48 +1,59 @@
 body {
-  background-color: rgb(14, 13, 14);
+  background-color: #141313;
+  
 }
 
-main .container {
-  background-image: url("http://localhost:3000/portfolio-c10/images/bg.webp");
-  height: 50vh;
+/* Main */
+.main-container {
+  background-image: url("http://localhost:3001/portfolio-c10/images/bg.webp");
   box-shadow: inset 30px 30px 190px rgb(0, 0, 0);
 }
 
 main .about-col {
-  margin-top: 6%;  
+  margin-top: 1%;  
 }
 
-main .container h1,
-main .container p  {
+.main-container h1,
+.main-container p  {
   color: white;
   text-shadow: 3px 4px 20px black;
 }
 
-main .container h1 span {
-  display: inline-block;
-  font-size: clamp(6rem, 4vw, 8rem);
+.main-container h1 span {
+  display: block;
+  font-size: clamp(5rem, 5vw, 7rem);
   font-weight: 800;
 }
 
+main p {
+  font-size: clamp(1.3rem, 4vw, 1.5rem);
+}
 
 
+/* Gallery Container */
 .gallery-container {
   margin-top: 4rem;
   cursor: pointer;
 }
 
+.skill-container h2,
 .gallery-container h2 {
   font-size: clamp(2.5rem, 4vw, 3.2rem);
   color: white;
+  background: -webkit-linear-gradient(#ed2af1, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   font-weight: 700;
+  margin-top: 2.1rem;
   margin-bottom: 1.8rem;
 }
-
 
 .gallery-card {
   border:0;
   transition: filter 0.6s ease-in-out;
-  background-color: black;
+  background-color: rgb(10, 10, 10);
 }
 
 .gallery-card .card-img {
@@ -57,7 +68,7 @@ main .container h1 span {
 .gallery-card figure { overflow: hidden; }
 
 .gallery-card figure img {
-  filter: brightness(0.4);
+  filter: brightness(0.6);
   transition: 
     transform 1.1s ease-in-out, 
     filter 0.6s ease-in-out;
@@ -85,14 +96,15 @@ main .container h1 span {
 }
 
 .gallery-container .button-effect {
+  color: rgba(183, 177, 177, 0.444);
   display: block;
   transform: scale(1.0);
   transition: 0.6s ease-in-out;
 }
 
 .gallery-container .button-effect:hover {
-  color: rgba(255, 255, 255, 0.668);
-  transform: scale(1.13);
+  color: rgba(255, 255, 255, 0.876);
+  transform: scale(1.1);
   filter: drop-shadow(0 0 20px rgba(0, 5, 9, 0.919));
   z-index: 999;
 }
@@ -106,6 +118,10 @@ main .container h1 span {
   }
 }
 
+
+.skill-container img {
+  width: 10%;
+}
 
 
 

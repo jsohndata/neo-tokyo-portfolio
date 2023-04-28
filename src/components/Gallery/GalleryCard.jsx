@@ -22,9 +22,9 @@ export default function GalleryCard ({ data:{id, name, about, website, cover} })
           <p>{about}</p>
 
           <div className="icon text-center">
-            <Image src="/portfolio-c10/icon/nav/react.svg" fluid />
+            {/* <Image src="/portfolio-c10/icon/nav/react.svg" fluid />
             <Image src="/portfolio-c10/icon/nav/javascript.svg" fluid />
-            <Image src="/portfolio-c10/icon/nav/css.svg" fluid />            
+            <Image src="/portfolio-c10/icon/nav/css.svg" fluid />        */}
           </div>
         </div>
       </Card>
