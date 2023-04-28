@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "../../utilis/Bootstrap.jsx";
 import devSkill from "../../data/dev-skill.json";
 import creativeSkill from "../../data/creative-skill.json";
 

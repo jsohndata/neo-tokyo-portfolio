@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Gallery from "./components/Gallery"
 import Skill from "./components/Skill";
+import ThreeThings from "./components/ThreeThings";
 import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <About />
+      <ThreeThings />
       <Gallery />
       <Skill />
       <Footer />
