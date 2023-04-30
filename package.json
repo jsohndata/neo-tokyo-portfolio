@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://bocacode.github.io/portfolio-c10",
+  "homepage": "https://jsohndata.github.io/neo-tokyo-portfolio",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.3",
