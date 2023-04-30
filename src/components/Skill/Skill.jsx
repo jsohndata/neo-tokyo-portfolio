@@ -18,7 +18,7 @@ export default function Skill() {
           <Col>
           {devSkill.map(
             (element) => (
-              <Image src={"https://jsohndata.github.io/neo-tokyo-portfolio/icon/"+element.name+".svg"} 
+              <Image src={`${process.env.PUBLIC_URL}/icons/${element.name}.svg`} 
                 fluid
                 className="button-effect" 
                 style={{"display":"inline-block"}} />
@@ -37,7 +37,7 @@ export default function Skill() {
           <Col>
           {creativeSkill.map(
             (element) => (
-              <Image src={"https://jsohndata.github.io/neo-tokyo-portfolio/icon/"+element.name+".svg"} 
+              <Image src={`${process.env.PUBLIC_URL}/icons/${element.name}.svg`} 
                 fluid
                 className="button-effect" 
                 style={{"display":"inline-block"}} />

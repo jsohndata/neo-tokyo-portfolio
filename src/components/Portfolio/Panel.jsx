@@ -1,4 +1,4 @@
-import { Col, Card, Image } from "react-bootstrap";
+import { Col, Card } from "react-bootstrap";
 
 export default function Panel ({ data:{id, name, about, website, cover} }) {
 
@@ -14,18 +14,12 @@ export default function Panel ({ data:{id, name, about, website, cover} }) {
           <a href={website} 
              target="_blank"
              rel="noreferrer"><Card.Img
-            src={cover} /></a>
+            src={`${process.env.PUBLIC_URL}/images/${cover}`} /></a>
         </figure>
 
         <div className="content">
           <h3>{name}</h3>
           <p>{about}</p>
-
-          <div className="icon text-center">
-            {/* <Image src="/portfolio-c10/icon/nav/react.svg" fluid />
-            <Image src="/portfolio-c10/icon/nav/javascript.svg" fluid />
-            <Image src="/portfolio-c10/icon/nav/css.svg" fluid />        */}
-          </div>
         </div>
       </Card>
     </Col>

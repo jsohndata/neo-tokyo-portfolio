@@ -4,12 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './styles/App.css';
 
 
-
 function App() {
-  return (    
-    <BrowserRouter>
-      <Main />
-    </BrowserRouter>
+  return (
+      <BrowserRouter>
+        <Main />
+      </BrowserRouter>
   );
 }
 
