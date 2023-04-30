@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/neo-tokyo-portfolio/static/css/main.6dd8225e.css",
-    "main.js": "/neo-tokyo-portfolio/static/js/main.d4df4d75.js",
-    "static/media/bg.webp": "/neo-tokyo-portfolio/static/media/bg.5bd640cf519f6937fb74.webp",
+    "main.css": "/neo-tokyo-portfolio/static/css/main.403578a7.css",
+    "main.js": "/neo-tokyo-portfolio/static/js/main.6d44d3d2.js",
+    "static/media/bg-1.webp": "/neo-tokyo-portfolio/static/media/bg-1.5bd640cf519f6937fb74.webp",
     "index.html": "/neo-tokyo-portfolio/index.html",
-    "main.6dd8225e.css.map": "/neo-tokyo-portfolio/static/css/main.6dd8225e.css.map",
-    "main.d4df4d75.js.map": "/neo-tokyo-portfolio/static/js/main.d4df4d75.js.map"
+    "main.403578a7.css.map": "/neo-tokyo-portfolio/static/css/main.403578a7.css.map",
+    "main.6d44d3d2.js.map": "/neo-tokyo-portfolio/static/js/main.6d44d3d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dd8225e.css",
-    "static/js/main.d4df4d75.js"
+    "static/css/main.403578a7.css",
+    "static/js/main.6d44d3d2.js"
   ]
 }
