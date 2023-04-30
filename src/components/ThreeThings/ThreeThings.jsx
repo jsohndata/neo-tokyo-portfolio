@@ -4,25 +4,29 @@ export default function ThreeThings() {
 
   return (
     <main>
-      <Container fluid className="p-5" style={{"backgroundColor":"#320c59"}}>
-        <Row className="text-center g-5">
-          <Col md={4}>
-            <p style={{"fontSize":"150px"}}>🚀</p>
-            <h3 className="text-white">Deployment</h3>
-            <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <Container fluid className="three-things-container">
+        <Row>
+          <Col><h2 className="text-center">Three Things I'm Proud of</h2></Col>
+        </Row>
+        
+        <Row className="justify-content-center g-5">
+          <Col md={3}>
+            <p className="icon">🚀</p>
+            <h3 className="text-center">Deployment</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </Col>
 
-          <Col md={4}>
-            <p style={{"fontSize":"150px"}}>🌩️</p>
-            <h3 className="text-white">API</h3>
-            <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <Col md={3}>
+            <p className="icon">🌩️</p>
+            <h3 className="text-center">API</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
           </Col>
 
-          <Col >
-          <p style={{"fontSize":"150px"}}>👾</p>
-            <h3 className="text-white">Game Dev</h3>
-            <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <Col md={3}>
+          <p className="icon">👾</p>
+            <h3 className="text-center">Game Dev</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 
           </Col>
         </Row>

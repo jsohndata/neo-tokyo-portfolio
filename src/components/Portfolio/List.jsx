@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
-import GalleryCard from "./GalleryCard.jsx";
+import Panel from "./Panel.jsx";
 import data from "../../data/gallery.json";
 
 export default function List () {
 
   return (
-    <Container className="gallery-container">
+    <Container className="gallery-container" id="portfolio">
       <Row>
         <Col>
           <h2 className="text-center">Portfolio</h2>
@@ -17,7 +17,7 @@ export default function List () {
           data.map( 
             (element) => {
               return element
-                ? <GalleryCard data={element} />
+                ? <Panel data={element} />
                 : <p>Loading</p>
             }
           )

@@ -1,6 +1,16 @@
+:root {
+  --color-dark: #13203d;
+  --color-darkest: #0c1c2c;
+  --color-dark-mid: #143444;
+
+  --color-light: #f4f5f6;
+  --color-highlight: #5eedcf;
+  --color-highlight-neon: #ed2af1;
+  --color-highlight-base: #e0c705;
+}
+
 body {
-  background-color: #141313;
-  
+  background-color: var(--color-darkest);  
 }
 
 /* Main */
@@ -10,48 +20,65 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: inset 30px 70px 90px rgb(0, 0, 0);
+  box-shadow: inset 30px 70px 90px var(--color-dark);
   min-height: 600px;
   height: 80vh;
 }
 
 main .about-col {
-  margin-top: 13%;  
+  margin-top: 10vh;  
 }
 
 .main-container h1,
 .main-container p  {
-  color: white;
-  text-shadow: 3px 4px 20px black;
+  color: var(--color-light);
+  text-shadow: 3px 4px 20px var(--color-dark);
 }
 
 .main-container h1 span {
+  font-size: clamp(1.6rem, 5vw, 1.9rem);
+  font-weight: 300;
+  color: var(--color-highlight);
   display: block;
-  font-size: clamp(5rem, 5vw, 7rem);
-  font-weight: 800;
 }
 
-main p {
-  font-size: clamp(1.3rem, 4vw, 1.5rem);
+.main-containe p {
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+}
+
+
+
+
+.three-things-container {
+  background-color: var(--color-dark-mid);
+  text-align: center;
+  color: var(--color-light);
+}
+
+.three-things-container .icon {
+  font-size: calc(3.5rem + 4vw);
+}
+
+.three-things-container h3 {
+  color: var(--color-highlight);
+}
+
+.three-things-container p {
+    font-size: clamp(1.2rem, 4vw, 1.45rem);
 }
 
 
 /* Gallery Container */
 .gallery-container {
-  margin-top: 4rem;
   cursor: pointer;
 }
 
+.three-things-container h2,
 .skill-container h2,
 .gallery-container h2 {
-  font-size: clamp(2.5rem, 4vw, 3.2rem);
-  color: white;
-  background: -webkit-linear-gradient(#ed2af1, #333333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  font-weight: 700;
+  background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-top: 2.1rem;
   margin-bottom: 1.8rem;
 }
@@ -59,7 +86,7 @@ main p {
 .gallery-card {
   border:0;
   transition: filter 0.6s ease-in-out;
-  background-color: rgb(10, 10, 10);
+  background-color: var(--color-dark);
 }
 
 .gallery-card .card-img {
@@ -124,10 +151,7 @@ main p {
   }
 }
 
-
-.skill-container img {
-  width: 10%;
-}
+.skill-container img { width: 10%; }
 
 
 

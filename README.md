@@ -3,3 +3,6 @@ An instance of a portfolio website designed for Cohort C10 utilizing React.js.
 
 ## Website
 (bocacode.github.io/portfolio-c10)[https://bocacode.github.io/portfolio-c10/]
+
+## Resource
+[Google Font: Mulish](https://fonts.google.com/specimen/Mulish)

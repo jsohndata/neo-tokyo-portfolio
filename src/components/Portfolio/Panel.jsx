@@ -1,6 +1,6 @@
 import { Col, Card, Image } from "react-bootstrap";
 
-export default function GalleryCard ({ data:{id, name, about, website, cover} }) {
+export default function Panel ({ data:{id, name, about, website, cover} }) {
 
   // const handleSiteLaunch = websiteUrl => {
   //   console.log(websiteUrl);
