@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/neo-tokyo-portfolio/static/css/main.6dd8225e.css",
+    "main.js": "/neo-tokyo-portfolio/static/js/main.6f00293f.js",
+    "static/media/bg.webp": "/neo-tokyo-portfolio/static/media/bg.5bd640cf519f6937fb74.webp",
+    "index.html": "/neo-tokyo-portfolio/index.html",
+    "main.6dd8225e.css.map": "/neo-tokyo-portfolio/static/css/main.6dd8225e.css.map",
+    "main.6f00293f.js.map": "/neo-tokyo-portfolio/static/js/main.6f00293f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dd8225e.css",
+    "static/js/main.6f00293f.js"
+  ]
+}
