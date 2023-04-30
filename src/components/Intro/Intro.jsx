@@ -13,7 +13,7 @@ export default function Intro() {
             xl={5} 
             className="about-col">
               <h1><span>Hello, I am</span> Jiho Sohn</h1>
-              <p>I am a software engineer residing in south Florida. I love JavaScript, React.js, CSS, Python, MongoDB and more. Besides that gardening, training my Belgium Malinois, riding my Ductai, are things I enjoy.</p>
+              <p>I am a software engineer residing in south Florida. I love JavaScript, React.js, CSS, Python, MongoDB and more. When I'm not crafting code, you will find me tending to my garden, keeping my Belgian Malinois on her toes (paws), and revving up my Ducati like it's an API.</p>
               <HashLink to="/#portfolio"><Button>See Portfolio</Button></HashLink>
           </Col>
         </Row>
