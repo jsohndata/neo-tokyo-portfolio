@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
-* {
-  font-family: 'Mulish', sans-serif;
-}
+* { font-family: 'Mulish', sans-serif; }
 
 h1 {
   font-size: clamp(5rem, 5vw, 7rem);
@@ -19,6 +17,21 @@ h3 {
   font-weight: 800;
 }
 
+.main-container h1 span {
+  font-size: clamp(1.6rem, 5vw, 1.9rem);
+  font-weight: 300;
+}
+
+.main-container p {
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+}
+
+.three-things-container p {
+  font-size: clamp(1.2rem, 4vw, 1.45rem);
+}
+
 li, p {
   font-size: clamp(1.0rem, 4vw, 1.25rem);
 }
+
+

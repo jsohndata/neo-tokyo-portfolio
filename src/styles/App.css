@@ -15,7 +15,7 @@ body {
 
 /* Main */
 .main-container {
-  background-image: url("/public/images/bg.webp");
+  background-image: url("/public/images/bg-1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -29,23 +29,20 @@ main .about-col {
   margin-top: 10vh;  
 }
 
-.main-container h1,
-.main-container p  {
-  color: var(--color-light);
-  text-shadow: 3px 4px 20px var(--color-dark);
+.main-container h1 {
+  background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-container h1 span {
-  font-size: clamp(1.6rem, 5vw, 1.9rem);
-  font-weight: 300;
   color: var(--color-highlight);
   display: block;
 }
 
-.main-containe p {
-  font-size: clamp(1.2rem, 2vw, 1.6rem);
+.main-container p  {
+  color: var(--color-light);
 }
-
 
 
 
@@ -63,9 +60,7 @@ main .about-col {
   color: var(--color-highlight);
 }
 
-.three-things-container p {
-    font-size: clamp(1.2rem, 4vw, 1.45rem);
-}
+
 
 
 /* Gallery Container */
@@ -144,7 +139,7 @@ main .about-col {
 
 /* Disable hover effects on mobile */
 @media (max-width: 768px) {
-  .button-effect:hover
+  .gallery-container .button-effect:hover
   {
       transform: scale(1.0);
       filter: none;
