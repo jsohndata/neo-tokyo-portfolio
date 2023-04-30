@@ -18,7 +18,7 @@ export default function Skill() {
           <Col>
           {devSkill.map(
             (element) => (
-              <Image src={"/portfolio-c10/icon/"+element.name+".svg"} 
+              <Image src={"/neo-tokyo-portfolio/icon/"+element.name+".svg"} 
                 fluid
                 className="button-effect" 
                 style={{"display":"inline-block"}} />

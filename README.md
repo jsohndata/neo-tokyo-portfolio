@@ -1,8 +1,8 @@
 # Portfolio C10
-An instance of a portfolio website designed for Cohort C10 utilizing React.js.
+A software engineer portfolio site with a futuristic Tokyo theme. Developed during Cohort 10 (C-10) as a class project utilizing React.js and Bootstrap 5.
 
 ## Website
-(bocacode.github.io/portfolio-c10)[https://bocacode.github.io/portfolio-c10/]
+(jsohndata.github.io/neo-tokyo-portfolio/)[https://jsohndata.github.io/neo-tokyo-portfolio/]
 
 ## Resource
 [Google Font: Mulish](https://fonts.google.com/specimen/Mulish)
