@@ -5,7 +5,7 @@ import data from "../../data/gallery.json";
 export default function List () {
 
   return (
-    <Container className="gallery-container" id="portfolio">
+    <Container id="portfolio">
       <Row>
         <Col>
           <h2 className="text-center">Portfolio <span style={{"display":"block","fontSize":"25px"}}>Where creativity and code collide.</span></h2>

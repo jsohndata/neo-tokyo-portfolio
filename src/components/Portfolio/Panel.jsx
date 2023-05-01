@@ -9,7 +9,7 @@ export default function Panel ({ data:{id, name, about, website, cover} }) {
   
   return (
     <Col key={id} md={4}>
-      <Card className="gallery-card button-effect">
+      <Card className="portfolio-panel button-effect">
         <figure>
           <a href={website} 
              target="_blank"

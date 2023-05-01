@@ -4,7 +4,7 @@ export default function ThreeThings() {
 
   return (
     <main>
-      <Container fluid className="three-things-container" id="three-things">
+      <Container fluid id="three-things">
         <Row>
           <Col><h2 className="text-center">Three Things 
           <span style={{"display":"block","fontSize":"25px"}}>That bring pride to my mom.</span></h2></Col>
@@ -18,7 +18,10 @@ export default function ThreeThings() {
           </Col>
 
           <Col sm={8} lg={3}>
-            <p className="icon">🚀</p>
+            <p className="icon"><a href="https://system-overload-solution.web.app/" 
+              target="_blank" 
+              rel="noreferrer" 
+              class="easter-egg">🚀</a></p>
             <h3 className="text-center">Rocket to<span className="d-md-block">The Moon</span></h3>
             <p className="text-center text-md-start">With 20+ years in tech, I have found that motivating our team to excel is like launching a rocket ship - challenging, but incredibly rewarding!</p>
           </Col>

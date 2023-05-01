@@ -9,8 +9,10 @@ export default function Main () {
 
   return (
     <>
-      <Intro />
-      <ThreeThings />
+      <div className="top-scene-container">
+        <Intro />
+        <ThreeThings />
+      </div>
       <Portfolio />
       <Skill />
       <About />

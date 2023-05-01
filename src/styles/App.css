@@ -1,7 +1,7 @@
 :root {
   --color-dark: #13203d;
   --color-darkest: #0c1c2c;
-  --color-dark-mid: #143444;
+  --color-dark-mid: #0d4c6b70;
 
   --color-light: #f4f5f6;
   --color-highlight: #5eedcf;
@@ -14,7 +14,7 @@ body {
 }
 
 /* Main */
-.main-container {
+.top-scene-container {
   background-color: rgba(0, 0, 0, 0.783);
   background-image: url("/public/images/bg-1.webp");
   background-repeat: no-repeat;
@@ -23,58 +23,52 @@ body {
   background-attachment: fixed;
 
   background-blend-mode: color;
-  /* box-shadow: inset 30px 70px 90px var(--color-dark); */
-
-  min-height: 600px;
-  height: 80vh;
 }
 
 main .about-col {
   margin-top: 10vh;  
 }
 
-.main-container h1 {
+main h1 {
   background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.main-container h1 span {
+main h1 span {
   color: var(--color-highlight);
   display: block;
 }
 
-.main-container p  {
+main p  {
   color: var(--color-light);
 }
 
 
 
-.three-things-container {
+#three-things {
   background-color: var(--color-dark-mid);
+  box-shadow: inset 0px 50px 60px rgba(0, 0, 0, 0.519);
   text-align: center;
   color: var(--color-light);
 }
 
-.three-things-container .icon {
+#three-things .icon {
   font-size: calc(3.5rem + 4vw);
 }
 
-.three-things-container h3 {
+#three-things h3 {
   color: var(--color-highlight);
 }
 
 
 
-
 /* Gallery Container */
-.gallery-container {
+#portfolio {
   cursor: pointer;
 }
 
-.three-things-container h2,
-.skill-container h2,
-.gallery-container h2 {
+h2 {
   background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -82,31 +76,37 @@ main .about-col {
   margin-bottom: 1.8rem;
 }
 
-.gallery-card {
+h2 span {
+  display: block;
+  font-size: 60%;
+  font-weight: 500;
+}
+
+.portfolio-panel {
   border:0;
   transition: filter 0.6s ease-in-out;
   background-color: var(--color-dark);
 }
 
-.gallery-card .card-img {
+.portfolio-panel .card-img {
   border-radius: 0;
 }
 
-.gallery-card .content {
+.portfolio-panel .content {
   padding: 20px;
 }
 
 
-.gallery-card figure { overflow: hidden; }
+.portfolio-panel figure { overflow: hidden; }
 
-.gallery-card figure img {
+.portfolio-panel figure img {
   filter: brightness(0.64);
   transition: 
     transform 1.1s ease-in-out, 
     filter 0.6s ease-in-out;
 }
 
-.gallery-card figure img:hover {
+.portfolio-panel figure img:hover {
   filter: brightness(1.0);
   transform: scale(1.3);
   transition: 
@@ -114,12 +114,12 @@ main .about-col {
     filter 0.6s ease-in-out;
 }
 
-.gallery-card button, 
-.gallery-card .icon img {
+.portfolio-panel button, 
+.portfolio-panel .icon img {
   height: 35px;
 }
 
-.gallery-card .icon img  {
+.portfolio-panel .icon img  {
   display: inline-block;
   filter: brightness(0.6);
   aspect-ratio: 1 / 1;
@@ -127,14 +127,14 @@ main .about-col {
   border: 0;
 }
 
-.gallery-container .button-effect {
+#portfolio .button-effect {
   color: rgba(183, 177, 177, 0.444);
   display: block;
   transform: scale(1.0);
   transition: 0.6s ease-in-out;
 }
 
-.gallery-container .button-effect:hover {
+#portfolio .button-effect:hover {
   color: rgba(255, 255, 255, 0.876);
   transform: scale(1.1);
   filter: drop-shadow(0 0 20px rgba(0, 5, 9, 0.919));
@@ -143,14 +143,25 @@ main .about-col {
 
 /* Disable hover effects on mobile */
 @media (max-width: 768px) {
-  .gallery-container .button-effect:hover
+  #portfolio .button-effect:hover
   {
       transform: scale(1.0);
       filter: none;
   }
 }
 
-.skill-container img { width: 10%; }
+#skills img { width: 10%; }
+
+#three-things a.easter-egg  {
+  cursor: url("/public/cursor/bulbasaur.cur"), auto;
+  text-decoration: none;
+}
+
+#skills a.easter-egg  {
+  cursor: url("/public/cursor/volcarona.cur"), auto;
+  text-decoration: none;
+}
+
 
 
 

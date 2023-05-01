@@ -5,7 +5,7 @@ export default function Intro() {
 
   return (
     <main>
-      <Container fluid className="main-container p-5">
+      <Container fluid className="p-5">
         <Row className="d-flex align-items-center justify-content-center">
           <Col 
             md={{ span: 7, offset: 5 }} 
