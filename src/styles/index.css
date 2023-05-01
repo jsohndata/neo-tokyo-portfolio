@@ -17,12 +17,12 @@ h3 {
   font-weight: 800;
 }
 
-.main-container h1 span {
+main h1 span {
   font-size: clamp(1.6rem, 5vw, 1.9rem);
   font-weight: 300;
 }
 
-.main-container p {
+main p {
   font-size: clamp(1.2rem, 2vw, 1.6rem);
 }
 
