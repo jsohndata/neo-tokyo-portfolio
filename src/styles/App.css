@@ -23,7 +23,7 @@ body {
   background-attachment: fixed;
 
   background-blend-mode: color;
-  box-shadow: inset 30px 70px 90px var(--color-dark);
+  /* box-shadow: inset 30px 70px 90px var(--color-dark); */
 
   min-height: 600px;
   height: 80vh;

@@ -8,7 +8,7 @@ export default function List () {
     <Container className="gallery-container" id="portfolio">
       <Row>
         <Col>
-          <h2 className="text-center">Portfolio</h2>
+          <h2 className="text-center">Portfolio <span style={{"display":"block","fontSize":"25px"}}>Where creativity and code collide.</span></h2>
         </Col>
       </Row>
 
