@@ -15,7 +15,7 @@ export default function About() {
     setImageIndex(0);
 
   return (
-    <Container>
+    <Container id="about" className="p-5">
       <Row>
         <Col>
           <h2 className="text-center">About <span>A Contrarian's Perspective on Life.</span></h2>
@@ -23,10 +23,10 @@ export default function About() {
       </Row>
 
       <Row className="justify-content-center">
-        <Col sm={10} md={5} lg={3}>
+        <Col xs={8} md={5} lg={3}>
           <Image src={`${process.env.PUBLIC_URL}/images/${imageArray[imageIndex]}`}
             alt="Jiho Sohn"            
-            className="button-effect"
+            className="button-effect border-style"
             fluid
             style={{"cursor":"zoom-in"}}
             onClick={() => setImageIndex(imageIndex+1)} />

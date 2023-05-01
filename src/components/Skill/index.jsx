@@ -1,1 +1,1 @@
-export { default } from "./Skill.jsx";
+export { default } from "./List.jsx";

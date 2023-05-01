@@ -1,14 +1,14 @@
 import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
 import Panel from "./Panel.jsx";
-import data from "../../data/gallery.json";
+import data from "../../data/portfolio.json";
 
 export default function List () {
 
   return (
-    <Container id="portfolio">
+    <Container id="portfolio" className="p-5">
       <Row>
         <Col>
-          <h2 className="text-center">Portfolio <span style={{"display":"block","fontSize":"25px"}}>Where creativity and code collide.</span></h2>
+          <h2 className="text-center">Portfolio <span>Where creativity and code collide.</span></h2>
         </Col>
       </Row>
 

@@ -6,5 +6,7 @@ A software engineer portfolio site with a futuristic Tokyo theme. Developed duri
 
 ## Resource
 * [Google Font: Mulish](https://fonts.google.com/specimen/Mulish)
-* [Cursor.cc: Bulbasuar](https://www.cursor.cc/?action=icon&file_id=185562)
-* [W3schools: CSS cusor](https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor)
+* [cursor.cc](https://www.cursor.cc)
+* [w3schools: CSS cusor](https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor)
+* [icons8.com](https://icons8.com/)
+* [vectorlogo.zone](https://vectorlogo.zone)

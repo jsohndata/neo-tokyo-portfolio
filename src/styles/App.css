@@ -7,6 +7,8 @@
   --color-highlight: #5eedcf;
   --color-highlight-neon: #ed2af1;
   --color-highlight-base: #e0c705;
+
+  --border-radius: 13px;
 }
 
 body {
@@ -72,8 +74,11 @@ h2 {
   background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   margin-top: 2.1rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 2.8rem;
 }
 
 h2 span {
@@ -162,8 +167,20 @@ h2 span {
   text-decoration: none;
 }
 
+.border-style {
+  border: 7px solid var(--color-dark-mid);
+  border-radius: var(--border-radius);
+}
 
-
+.button-style {
+  background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  border: 1px solid var(--color-highlight-neon);
+}
 
 
 

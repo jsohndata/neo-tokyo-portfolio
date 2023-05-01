@@ -12,7 +12,7 @@ export default function EasterEgg( {iconName} ) {
           src={`${process.env.PUBLIC_URL}/icons/${iconName}.svg`}
           fluid
           className="button-effect"
-          style={{ display: "inline-block" }} />
+          style={{display: "inline-block", width: "100px"}} />
     </a>
   )
 

@@ -4,10 +4,10 @@ export default function ThreeThings() {
 
   return (
     <main>
-      <Container fluid id="three-things">
+      <Container fluid id="three-things" className="p-5">
         <Row>
           <Col><h2 className="text-center">Three Things 
-          <span style={{"display":"block","fontSize":"25px"}}>That bring pride to my mom.</span></h2></Col>
+          <span>That bring pride to my mom.</span></h2></Col>
         </Row>
         
         <Row className="justify-content-center g-5">
