@@ -15,12 +15,16 @@ body {
 
 /* Main */
 .main-container {
+  background-color: rgba(0, 0, 0, 0.783);
   background-image: url("/public/images/bg-1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+
+  background-blend-mode: color;
   box-shadow: inset 30px 70px 90px var(--color-dark);
+
   min-height: 600px;
   height: 80vh;
 }
