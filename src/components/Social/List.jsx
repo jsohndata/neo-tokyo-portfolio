@@ -8,7 +8,7 @@ export default function List () {
         <Row>
           <Col className="text-center">
             <h2 className="text-white">Social
-              <span><q>...make sure you're connected, The writing's on the wall</q></span></h2>
+              <span><q>...make sure you're connected, The writing's on the wall.</q></span></h2>
           </Col>
         </Row>
 
