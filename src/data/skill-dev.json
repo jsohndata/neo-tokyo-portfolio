@@ -1,49 +1,47 @@
 [
   {
-    "id": 10, 
+    "id": 210, 
     "name": "javascript"
   },
 
   {
-    "id": 20, 
+    "id": 220, 
     "name": "python"
   },
 
 
   {
-    "id": 30, 
+    "id": 230, 
     "name": "css"
   },
 
   {
-    "id": 40, 
+    "id": 240, 
     "name": "html"
   },
 
   {
-    "id": 60, 
+    "id": 250, 
     "name": "mysql"
   },
 
   {
-    "id": 70, 
+    "id": 260, 
     "name": "mongo"
   },
 
   {
-    "id": 60, 
+    "id": 270, 
     "name": "react"
   },
 
   {
-    "id": 50, 
+    "id": 280, 
     "name": "bootstrap"
   },  
 
-
-
   {
-    "id": 80, 
+    "id": 290, 
     "name": "express"
   }
 ]

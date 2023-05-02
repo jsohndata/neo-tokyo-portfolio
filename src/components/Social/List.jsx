@@ -18,7 +18,9 @@ export default function List () {
           {
             data.map(
               (element) => (
-                <Panel element={element} />
+                <Panel 
+                  key={element.id}
+                  element={element} />
               ))
           }
         </Row>
