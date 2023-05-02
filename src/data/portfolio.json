@@ -42,5 +42,14 @@
     "website": "https://jsohndata.github.io/quizz-app",
     "cover": "port-quizz-app.webp",
     "skill": ["React.js"]
-  }
+  },
+
+  {
+    "id": 6,
+    "name": "Things I Collect",
+    "about": "Using React.js and Bootstrap this was a study of JSON data and the utilization of the map method for Cohort 10 (C-10).",
+    "website": "https://jsohndata.github.io/things-i-collect/",
+    "cover": "port-things-i-collect.webp",
+    "skill": ["React.js"]
+  }  
 ]
