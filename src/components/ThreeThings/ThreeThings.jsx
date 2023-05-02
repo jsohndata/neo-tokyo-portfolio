@@ -1,6 +1,8 @@
 import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
+import useBgRand from "../../hook/useBgRand";
 
 export default function ThreeThings() {
+  const { handleBgImage } = useBgRand;
 
   return (
     <main>
@@ -21,13 +23,13 @@ export default function ThreeThings() {
             <p className="icon"><a href="https://system-overload-solution.web.app/" 
               target="_blank" 
               rel="noreferrer" 
-              class="easter-egg">🚀</a></p>
+              className="easter-egg">🚀</a></p>
             <h3 className="text-center">Rocket to<span className="d-md-block">The Moon</span></h3>
             <p className="text-center text-md-start">With 20+ years in tech, I have found that motivating our team to excel is like launching a rocket ship - challenging, but incredibly rewarding!</p>
           </Col>
 
           <Col sm={8} lg={3}>
-            <p className="icon">🥪</p>
+            <p className="icon" onClick={handleBgImage} >🥪</p>
             <h3 className="text-center">Functionality <span className="d-md-block">+ Design</span></h3>
             <p className="text-center text-md-start">Combining tech and design is my jam - like PB&J. I strive to create a seamless, irresistible experience for users whilst keeping things toasty and fresh.</p>
           </Col>

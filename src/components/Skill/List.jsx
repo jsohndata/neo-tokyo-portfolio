@@ -24,8 +24,12 @@ export default function Skill() {
             {skillCreative.map(
               (element) =>  
                 (element.name === "figma") 
-                  ? <EasterEgg name={element.name} />
-                  : <Panel name={element.name} />
+                  ? <EasterEgg 
+                      id={element.id} 
+                      name={element.name} />
+                  : <Panel 
+                      id={element.id} 
+                      name={element.name} />
             )}
           </Col>
 
@@ -33,7 +37,9 @@ export default function Skill() {
             <h2 className="text-white">Dev</h2>
             {skillDev.map(
               (element) => (
-                <Panel name={element.name} />
+                <Panel 
+                  id={element.id} 
+                  name={element.name} />
               )
             )}
           </Col>
@@ -42,7 +48,9 @@ export default function Skill() {
             <h2 className="text-white">PM</h2>
             {skillPm.map(
               (element) => (
-                <Panel name={element.name} />
+                <Panel 
+                  id={element.id} 
+                  name={element.name} />
               )
             )}
           </Col>          

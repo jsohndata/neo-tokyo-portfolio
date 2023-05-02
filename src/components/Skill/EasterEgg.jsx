@@ -1,6 +1,6 @@
 import { Image } from "../../utilis/Bootstrap.jsx";
 
-export default function EasterEgg( {name} ) {
+export default function EasterEgg( {name,id} ) {
 
   return (
     <a
@@ -9,6 +9,7 @@ export default function EasterEgg( {name} ) {
       className="easter-egg"
       rel="noreferrer">
         <Image 
+          key={id}
           src={`${process.env.PUBLIC_URL}/icons/${name}.svg`}
           fluid
           className="button-effect"
