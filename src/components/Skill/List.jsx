@@ -10,7 +10,7 @@ export default function Skill() {
 
   return (
     <section>
-      <Container id="skills" className="p-5">        
+      <Container fluid id="skills" className="p-5">        
         <Row>
           <Col className="text-center">
             <h2 className="text-white">Particular Set of Skills
@@ -24,8 +24,8 @@ export default function Skill() {
             {skillCreative.map(
               (element) =>  
                 (element.name === "figma") 
-                  ? <EasterEgg iconName={element.name} />
-                  : <Panel iconName={element.name} />
+                  ? <EasterEgg name={element.name} />
+                  : <Panel name={element.name} />
             )}
           </Col>
 
@@ -33,7 +33,7 @@ export default function Skill() {
             <h2 className="text-white">Dev</h2>
             {skillDev.map(
               (element) => (
-                <Panel iconName={element.name} />
+                <Panel name={element.name} />
               )
             )}
           </Col>
@@ -42,7 +42,7 @@ export default function Skill() {
             <h2 className="text-white">PM</h2>
             {skillPm.map(
               (element) => (
-                <Panel iconName={element.name} />
+                <Panel name={element.name} />
               )
             )}
           </Col>          

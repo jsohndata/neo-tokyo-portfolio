@@ -17,8 +17,10 @@ export default function Main () {
       <Portfolio />
       <Skill />
       <About />
-      <Social />
-      <Footer />
+      <div className="top-scene-container">
+        <Social />
+        <Footer />
+      </div>
     </>
   )
 }

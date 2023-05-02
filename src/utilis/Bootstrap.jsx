@@ -9,6 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Accordion from "react-bootstrap/Accordion";
 import ListGroup from "react-bootstrap/ListGroup";
 import Tooltip from "react-bootstrap/Tooltip";
+import Modal from "react-bootstrap/Modal";
 
 export { Container, Row, Col, Button, Image, 
-  Card, Nav, Navbar, Accordion, ListGroup, Tooltip }
+  Card, Nav, Navbar, Accordion, ListGroup, Tooltip, Modal }

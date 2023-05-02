@@ -8,8 +8,8 @@ export default function Intro() {
       <Container fluid className="p-5">
         <Row className="d-flex align-items-center justify-content-center">
           <Col 
-            md={{ span: 7, offset: 5 }} 
-            lg={{ span: 6, offset: 4 }} 
+            sm={10} 
+            lg={ {span: 6, offset: 4} }
             xl={5} 
             className="p-4">
               <h1><span>Hello, my name is</span> Jiho Sohn</h1>

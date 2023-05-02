@@ -23,16 +23,16 @@ export default function About() {
       </Row>
 
       <Row className="justify-content-center">
-        <Col xs={8} md={5} lg={3}>
+        <Col xs={8} md={6} lg={4} xl={3}>
           <Image src={`${process.env.PUBLIC_URL}/images/${imageArray[imageIndex]}`}
             alt="Jiho Sohn"            
-            className="button-effect border-style"
+            className="button-effect border-style mb-4"
             fluid
             style={{"cursor":"zoom-in"}}
             onClick={() => setImageIndex(imageIndex+1)} />
         </Col>
 
-        <Col md={8} lg={6}  className="text-white">
+        <Col  lg={8}  className="text-white">
         <p>My upbringing has had a significant impact on my worldview. I was born in Korea and later moved to Hawaii for high school, where I experienced a challenging transition from East to West society. After that, I pursued a ceramics degree at an art school in Rhode Island and started my career as a web developer in Boston in 2001 before moving to Baltimore, Maryland. Life has been unpredictable, but I have come to embrace the unexpected.</p>
 
         <p>Currently, I am a senior instructor at Boca Code, where I have the privilege of working with the next generation of software engineers. I take a contrarian approach to teaching, encouraging my students to think critically as individuals and as part of a team. Their unique perspectives inspire me to learn from them and continue to grow.</p>

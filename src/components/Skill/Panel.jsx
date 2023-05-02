@@ -1,10 +1,10 @@
 import { Image } from "../../utilis/Bootstrap.jsx";
 
-export default function Panel( {iconName} ) {
+export default function Panel( {name} ) {
 
   return (
     <Image
-      src={`${process.env.PUBLIC_URL}/icons/${iconName}.svg`}
+      src={`${process.env.PUBLIC_URL}/icons/${name}.svg`}
       className="button-effect"
       style={{display: "inline-block", width: "100px"}} />
   );
