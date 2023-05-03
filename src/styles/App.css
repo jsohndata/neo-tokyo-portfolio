@@ -16,8 +16,9 @@ body {
 }
 
 /* Main */
-.top-scene-container {
-  background-color: rgba(0, 0, 0, 0.783);
+.top-scene-container,
+.bottom-scene-container  {
+  background-color: rgba(0, 0, 0, 0.72);
   background-image: url("/public/images/bg-1.webp");
   background-repeat: no-repeat;
   background-position: center;

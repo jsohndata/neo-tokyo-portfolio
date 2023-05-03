@@ -4,16 +4,17 @@ import bgImages from "./rand-bg.js";
 export default function useBgRand() {
   const[bgImage, setBgImage] = useState('');  
 
-  const randomIndex = Math.floor(Math.random() * bgImages.length);
-
   useEffect(() => {
-    const randomImage = bgImages[randomIndex];
+    const randomImage = bgImages[Math.floor(Math.random() * bgImages.length)];
     setBgImage(randomImage);
-  }, [randomIndex]);
 
+    document.querySelector(".top-scene-container").style.backgroundImage=
+      `url(${process.env.PUBLIC_URL+"/images/"+bgImage}`
   
+  }, [bgImage]);  
+
   const handleBgImage = () => {
-    const randomImage = bgImages[randomIndex];
+    const randomImage = bgImages[Math.floor(Math.random() * bgImages.length)];
     setBgImage(randomImage);
   }
 
