@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import Main from "./scenes/Main.jsx"
+import Homepage from "./pages/Homepage.jsx"
 import "bootstrap/dist/css/bootstrap.min.css";
 import './styles/App.css';
 
@@ -7,7 +7,7 @@ import './styles/App.css';
 function App() {
   return (
       <BrowserRouter>
-        <Main />
+        <Homepage />
       </BrowserRouter>
   );
 }

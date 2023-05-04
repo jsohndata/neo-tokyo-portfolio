@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col, Image } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col, Image, Button } from "../../utilis/Bootstrap.jsx";
 
 export default function About() {
   const[imageIndex, setImageIndex] = useState(0);
@@ -38,6 +38,13 @@ export default function About() {
         <p>Currently, I am a senior instructor at Boca Code, where I have the privilege of working with the next generation of software engineers. I take a contrarian approach to teaching, encouraging my students to think critically as individuals and as part of a team. Their unique perspectives inspire me to learn from them and continue to grow.</p>
         
         <p>Looking to the future, I am fascinated by the potential of new technologies such as artificial intelligence and machine learning (AI/ML). As a contrarian, I am eager to explore these fields from a unique perspective and contribute to their growth in ways that challenge conventional thinking. The possibilities are endless, and who knows what unexpected discoveries we might make – perhaps even having PB&J sandwiches on the moon!</p>
+
+        <a href="https://www.linkedin.com/in/jsohndata/"
+          target="_blank"
+          rel="noreferrer"><Button 
+            size="lg" 
+            variant="outline-danger" 
+            className="button-style button-effect">Connect on Linkedin</Button></a>
         </Col>
       </Row>
     </Container>

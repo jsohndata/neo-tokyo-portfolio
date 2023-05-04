@@ -179,6 +179,10 @@ h2 span {
   text-decoration: none;
 }
 
+#about a {
+  text-decoration: none;
+}
+
 
 #social img {
   width: clamp(70px, 4vw, 90px);

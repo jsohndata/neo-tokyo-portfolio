@@ -17,7 +17,7 @@ export default function Intro() {
               <HashLink to="/#portfolio" style={{"textDecoration":"none"}}><Button 
                 size="lg" 
                 variant="outline-danger" 
-                className="button-style button-effect">See Portfolio</Button></HashLink>
+                className="button-style button-effect">getPortfolio</Button></HashLink>
           </Col>
         </Row>
       </Container>
