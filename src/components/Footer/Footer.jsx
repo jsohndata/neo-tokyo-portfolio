@@ -28,7 +28,7 @@ export default function Footer() {
             <Github size="40" color="grey" />
             <br /><small>Code in GitHub</small>
             </a>
-            <small>&copy; {currentYear}</small></p>
+            <small>&copy; {currentYear} Original AI Art</small></p>
           </Col>
         </Row>
       </Container>
