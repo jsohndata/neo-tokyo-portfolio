@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Container, Row, Col, Image, Button } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col, Image } from "../../utilis/Bootstrap.jsx";
+import ButtonOutline from "../Elements/ButtonOutline.jsx";
 
 export default function About() {
   const[imageIndex, setImageIndex] = useState(0);
@@ -41,10 +42,7 @@ export default function About() {
 
         <a href="https://www.linkedin.com/in/jsohndata/"
           target="_blank"
-          rel="noreferrer"><Button 
-            size="lg" 
-            variant="outline-danger" 
-            className="button-style button-effect">Connect on Linkedin</Button></a>
+          rel="noreferrer"><ButtonOutline text={"Connect on Linkedin"} /></a>
         </Col>
       </Row>
     </Container>

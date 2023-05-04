@@ -1,5 +1,6 @@
 import { HashLink } from "react-router-hash-link";
-import { Container, Row, Col, Button } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
+import ButtonOutline from "../Elements/ButtonOutline.jsx";
 
 export default function Intro() {
 
@@ -14,10 +15,7 @@ export default function Intro() {
             className="p-4">
               <h1><span>Hello, my name is</span> Jiho Sohn</h1>
               <p>I am a software engineer residing in south Florida. I love JavaScript, React.js, CSS, Python, MongoDB and more. When I'm not crafting code, you will find me tending to my garden, keeping my Belgian Malinois on her toes (paws), and revving up my Ducati like it's an API.</p>
-              <HashLink to="/#portfolio" style={{"textDecoration":"none"}}><Button 
-                size="lg" 
-                variant="outline-danger" 
-                className="button-style button-effect">getPortfolio</Button></HashLink>
+              <HashLink to="/#portfolio" style={{"textDecoration":"none"}}><ButtonOutline text={"getPortfolio"} /></HashLink>
           </Col>
         </Row>
       </Container>

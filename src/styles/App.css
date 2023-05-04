@@ -66,12 +66,10 @@ main p  {
 
 #three-things a.easter-egg  {
   cursor: url("/public/cursor/bulbasaur.cur"), auto;
-  text-decoration: none;
 }
 
 #three-things .easter-egg-2  {
   cursor: url("/public/cursor/blastoise.cur"), auto;
-  text-decoration: none;
 }
 
 
@@ -176,13 +174,7 @@ h2 span {
 
 #skills a.easter-egg  {
   cursor: url("/public/cursor/volcarona.cur"), auto;
-  text-decoration: none;
 }
-
-#about a {
-  text-decoration: none;
-}
-
 
 #social img {
   width: clamp(70px, 4vw, 90px);

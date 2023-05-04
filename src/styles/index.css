@@ -33,6 +33,9 @@ main p {
   font-size: clamp(1.2rem, 2vw, 1.6rem);
 }
 
+a { text-decoration: none; }
+
+
 .three-things-container p {
   font-size: clamp(1.2rem, 4vw, 1.45rem);
 }
