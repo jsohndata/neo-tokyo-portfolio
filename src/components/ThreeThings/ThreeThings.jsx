@@ -29,7 +29,8 @@ export default function ThreeThings() {
           </Col>
 
           <Col sm={8} lg={3}>            
-            <p className="icon" onClick={ handleBgImage}>🥪</p>
+            <p className="icon easter-egg-2" 
+              onClick={ handleBgImage}>🥪</p>
             <h3 className="text-center">Functionality <span className="d-md-block">+ Design</span></h3>
             <p className="text-center text-md-start">Combining tech and design is my jam - like PB&J. I strive to create a seamless, irresistible experience for users whilst keeping things toasty and fresh.</p>
           </Col>

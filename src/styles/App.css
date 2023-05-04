@@ -69,6 +69,11 @@ main p  {
   text-decoration: none;
 }
 
+#three-things .easter-egg-2  {
+  cursor: url("/public/cursor/blastoise.cur"), auto;
+  text-decoration: none;
+}
+
 
 
 /* Gallery Container */

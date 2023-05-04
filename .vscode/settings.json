@@ -4,5 +4,6 @@
     "activityBar.background": "#1d0225",
     "titleBar.activeBackground": "#c117a1",
     "titleBar.activeForeground": "#F5FCF5"
-  }
+  },
+  "explorer.compactFolders": false
 }
