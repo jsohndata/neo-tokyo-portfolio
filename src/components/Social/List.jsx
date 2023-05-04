@@ -8,7 +8,7 @@ export default function List () {
     <section>
       <Container id="social" className="p-5">        
         <Row>
-          <Col className="text-center">
+          <Col className="text-center align-items-bottom">
             <h2 className="text-white">Social
               <span><q>...make sure you're connected, The writing's on the wall.</q></span></h2>
           </Col>

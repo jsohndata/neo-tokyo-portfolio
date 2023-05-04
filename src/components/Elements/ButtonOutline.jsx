@@ -6,6 +6,6 @@ export default function ButtonOutline ({text}) {
     <Button 
       size="lg" 
       variant="outline-danger" 
-      className="button-style button-effect">{text}</Button>
+      className="d-block d-lg-inline m-auto button-style button-effect">{text}</Button>
   )
 }

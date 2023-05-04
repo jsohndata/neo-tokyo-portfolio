@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
 import { HashLink } from "react-router-hash-link";
-import ButtonOutline from "../Elements/ButtonOutline.jsx";
 import { Github } from "react-bootstrap-icons";
 
 export default function Footer() {
@@ -10,7 +9,15 @@ export default function Footer() {
 
   return (
     <footer>
-      <Container id="portfolio" className="p-5">
+      <Container id="portfolio" className="p-5" >
+        <Row>
+          <Col>
+            <HashLink to="#intro">
+              <p className="text-center">👆🏽</p>
+            </HashLink>
+          </Col>
+        </Row>
+
         <Row>
           <Col>
           <p className="text-center text-secondary">
@@ -22,14 +29,6 @@ export default function Footer() {
             <br /><small>Code in GitHub</small>
             </a>
             <small>&copy; {currentYear}</small></p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col>
-            <HashLink to="#intro">
-              <ButtonOutline text="Top" />
-            </HashLink>
           </Col>
         </Row>
       </Container>

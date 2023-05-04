@@ -26,10 +26,13 @@ export default function List () {
         }                
       </Row>
 
-      <Row className="justify-content-center mt-5">
-        <Col md={3}><a href="https://github.com/jsohndata"
+      <Row className="mt-5">
+        <Col md={5} lg={12} className="text-center">
+          <a href="https://github.com/jsohndata"
           target="_blank"
-          rel="noreferrer"><ButtonOutline text="Git Pun: How Eye Roll" /></a>
+          rel="noreferrer">
+            <ButtonOutline text="Git Pun: How Eye Roll" />
+          </a>
         </Col>
       </Row>
     </Container>

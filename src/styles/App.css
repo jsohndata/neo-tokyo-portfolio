@@ -15,10 +15,14 @@ body {
   background-color: var(--color-darkest);  
 }
 
+p {
+  text-shadow: 2px 2px 5px #030303;
+}
+
 /* Main */
 .top-scene-container,
 .bottom-scene-container  {
-  background-color: rgba(0, 0, 0, 0.72);
+  background-color: rgba(0, 0, 0, 0.53);
   background-image: url("/public/images/bg-1.webp");
   background-repeat: no-repeat;
   background-position: center;
@@ -50,8 +54,8 @@ main p  {
 
 
 #three-things {
-  background-color: var(--color-dark-mid);
-  box-shadow: inset 0px 50px 60px rgba(0, 0, 0, 0.519);
+  background-color: rgba(12, 4, 23, 0.713);
+  box-shadow: inset 0px 50px 60px rgba(10, 9, 3, 0.117);
   text-align: center;
   color: var(--color-light);
 }
@@ -176,10 +180,16 @@ h2 span {
   cursor: url("/public/cursor/volcarona.cur"), auto;
 }
 
+#social {
+  max-width: 550px;
+}
+
 #social img {
   width: clamp(70px, 4vw, 90px);
   display: "inline-block";
   filter: invert(0);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
 }
 
 .border-style {
