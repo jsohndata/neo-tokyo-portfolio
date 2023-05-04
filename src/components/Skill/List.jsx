@@ -17,7 +17,7 @@ export default function Skill() {
               <span><q>Skills I have acquired over a very long career.</q></span></h2>
           </Col>
         </Row>
-"
+
         <Row className="justify-content-center">
           <Col md={3} className="text-center">
             <h2 className="text-white">Creative</h2>
@@ -57,5 +57,5 @@ export default function Skill() {
         </Row>
       </Container>
     </section>
-  )
+  );
 }

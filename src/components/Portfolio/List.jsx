@@ -22,8 +22,7 @@ export default function List () {
                     key={element.id}
                     data={element} />
                 : <p>Loading</p>
-            }
-          )
+            })
         }                
       </Row>
 
@@ -34,5 +33,5 @@ export default function List () {
         </Col>
       </Row>
     </Container>
-  )
+  );
 }

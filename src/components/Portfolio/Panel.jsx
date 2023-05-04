@@ -23,5 +23,5 @@ export default function Panel ({ data:{id, name, about, website, cover} }) {
         </div>
       </Card>
     </Col>
-  )
+  );
 }

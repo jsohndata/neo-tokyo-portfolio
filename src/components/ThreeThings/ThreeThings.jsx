@@ -5,7 +5,7 @@ export default function ThreeThings() {
   const { handleBgImage } = useBgRand();
 
   return (
-    <main>
+    <section>
       <Container fluid id="three-things" className="p-5">
         <Row>
           <Col><h2 className="text-center">Three Things 
@@ -37,6 +37,6 @@ export default function ThreeThings() {
 
         </Row>
       </Container>
-    </main>
+    </section>
   )
 }
