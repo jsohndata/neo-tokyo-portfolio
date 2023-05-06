@@ -1,8 +1,19 @@
 # Portfolio C10
+[![readme](./public/images/readme.webp)](https://jsohndata.com)
 A software engineer portfolio site with a futuristic Tokyo theme. Developed during Cohort 10 (C-10) as a class project utilizing React.js and Bootstrap 5.
 
+<br>
+
 ## Website
-(jsohndata.github.io/neo-tokyo-portfolio/)[https://jsohndata.github.io/neo-tokyo-portfolio/]
+* 👉 [jsohndata.com](https://jsohndata.com)
+
+<br> 
+
+## Note
+* There are 3 Pokemons--go find them!
+* All background images are created by utilizing AI (Artificial Intelligence).
+
+<br>
 
 ## Resource
 * [Google Font: Mulish](https://fonts.google.com/specimen/Mulish)
