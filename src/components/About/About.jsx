@@ -6,7 +6,7 @@ export default function About() {
   const[imageIndex, setImageIndex] = useState(0);
 
   const imageArray = [
-    "profile-1.webp",
+    "profile-1.jpg",
     "profile-2.webp",
     "profile-3.webp",
     "profile-4.webp"
