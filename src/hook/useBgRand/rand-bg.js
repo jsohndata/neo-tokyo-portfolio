@@ -5,9 +5,6 @@ const bgImages = [
   "bg-4.webp",
   "bg-5.webp",
   "bg-6.webp",
-  "bg-7.webp",
-  "bg-8.webp",
-  "bg-9.webp",
 ];
 
 export default bgImages;
