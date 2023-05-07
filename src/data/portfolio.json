@@ -46,10 +46,10 @@
 
   {
     "id": 6,
-    "name": "Things I Collect",
-    "about": "Using React.js and Bootstrap this was a study of JSON data and the utilization of the map method for Cohort 10 (C-10).",
-    "website": "https://jsohndata.github.io/things-i-collect/",
-    "cover": "port-things-i-collect.webp",
+    "name": "Synthational",
+    "about": "Immersing oneself in the world of AI-generated images that span diverse styles, from surreal illustrations and hyper-realistic photographs to anime, all while grooving to some dope music and giving free rein to the imagination to run wild.",
+    "website": "https://jsohndata.github.io/synthational/",
+    "cover": "port-synthational.webp",
     "skill": ["React.js"]
   }  
 ]
