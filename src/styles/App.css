@@ -229,3 +229,21 @@ h2 span {
       filter: none;
   }
 }
+
+#mozarts-ghost {
+  position: fixed;
+  opacity: 1;
+  bottom: 0;
+  left: 10px;
+  padding: 10px;
+}
+
+#mozarts-ghost a:link,
+#mozarts-ghost a:visited {
+  color: rgb(164, 164, 235);
+  text-decoration: none;
+}
+
+#mozarts-ghost a:hover {
+  color: rgb(195, 0, 255);
+}
