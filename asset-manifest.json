@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/neo-tokyo-portfolio/static/css/main.3f6e1eea.css",
-    "main.js": "/neo-tokyo-portfolio/static/js/main.071bcb6a.js",
-    "static/media/bg-1.webp": "/neo-tokyo-portfolio/static/media/bg-1.999ee48ae3552dbc6a6a.webp",
-    "static/media/bulbasaur.cur": "/neo-tokyo-portfolio/static/media/bulbasaur.4bbf2ebf25326728c8c8.cur",
-    "static/media/volcarona.cur": "/neo-tokyo-portfolio/static/media/volcarona.b8986d248fc8dadb5d7c.cur",
-    "index.html": "/neo-tokyo-portfolio/index.html",
-    "main.3f6e1eea.css.map": "/neo-tokyo-portfolio/static/css/main.3f6e1eea.css.map",
-    "main.071bcb6a.js.map": "/neo-tokyo-portfolio/static/js/main.071bcb6a.js.map"
+    "main.css": "/static/css/main.40661001.css",
+    "main.js": "/static/js/main.bbdf7d6a.js",
+    "static/media/bg-1.webp": "/static/media/bg-1.23293392a51419640c18.webp",
+    "static/media/bulbasaur.cur": "/static/media/bulbasaur.4bbf2ebf25326728c8c8.cur",
+    "static/media/volcarona.cur": "/static/media/volcarona.b8986d248fc8dadb5d7c.cur",
+    "static/media/blastoise.cur": "/static/media/blastoise.49e65359386e87232f38.cur",
+    "index.html": "/index.html",
+    "main.40661001.css.map": "/static/css/main.40661001.css.map",
+    "main.bbdf7d6a.js.map": "/static/js/main.bbdf7d6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f6e1eea.css",
-    "static/js/main.071bcb6a.js"
+    "static/css/main.40661001.css",
+    "static/js/main.bbdf7d6a.js"
   ]
 }
