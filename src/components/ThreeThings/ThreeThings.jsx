@@ -29,7 +29,7 @@ export default function ThreeThings() {
               target="_blank" 
               rel="noreferrer" 
               className="easter-egg">🚀</a></p>
-            <h3 className="text-center">Rocket to<span className="d-md-block">The Moon</span></h3>
+            <h3 className="text-center">Rocket to <span className="d-md-block">The Moon</span></h3>
             <p className="text-center text-md-start">With 20+ years in tech, I have found that motivating our team to excel is like launching a rocket ship - challenging, but incredibly rewarding!</p>
           </Col>
 

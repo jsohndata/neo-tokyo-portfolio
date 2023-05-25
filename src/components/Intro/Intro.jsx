@@ -2,7 +2,7 @@ import { HashLink } from "react-router-hash-link";
 import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
 import ButtonOutline from "../Elements/ButtonOutline.jsx";
 import { Pannellum } from "pannellum-react";
-import bg from "./background/anime_art_style_cyberpunk_future_city_street_t.jpg";
+import bg from "./background/anime_art_style_cyberpunk_future_city_street_t.webp";
 
 export default function Page4() {
 
