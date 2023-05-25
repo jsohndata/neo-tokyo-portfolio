@@ -51,15 +51,19 @@ main p  {
 }
 
 #about {
-  box-shadow: 0px 20px 120px rgba(16, 1, 26, 0.869);
+  box-shadow: 
+    0px 100px 90px rgba(146, 11, 236, 0.869),
+    0px 20px 8px rgba(236, 11, 52, 0.828);
 }
 
 #three-things {
-  background-color: rgba(28, 4, 23, 0.348);
+  background-color: rgba(18, 4, 15, 0.489);
   box-shadow: inset 0px 50px 60px rgba(10, 9, 3, 0.117);
   text-align: center;
   color: var(--color-light);
-  box-shadow: 0px 20px 120px rgba(16, 1, 26, 0.869);
+  box-shadow: 
+    0px 20px 140px rgba(16, 1, 26, 0.869),
+    0px -20px 40px rgba(236, 11, 213, 0.828);
 }
 
 #three-things .icon {
@@ -100,6 +104,10 @@ h2 span {
 
 #portfolio {
   cursor: pointer;
+  box-shadow: 
+    0px 50px 300px rgba(63, 13, 96, 0.151),
+    0px 10px 10px rgba(236, 11, 52, 0.14);
+  
 }
 
 .portfolio-panel {
@@ -176,7 +184,7 @@ h2 span {
 
 #skills {
   background-color: rgba(1, 5, 8, 0.348);
-  box-shadow: inset 0px 50px 60px rgba(10, 9, 3, 0.117);
+  box-shadow: inset 0px 50px 40px rgba(1, 1, 0, 0.117);
 }
 
 #skills img { 
