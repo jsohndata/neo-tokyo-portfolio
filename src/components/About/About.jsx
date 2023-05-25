@@ -44,7 +44,8 @@ export default function About() {
         <Col className="text-center">
           <a href="https://www.linkedin.com/in/jsohndata/"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+          className="button-effect">
             <ButtonOutline text={"Connect on Linkedin"} />
           </a>
         </Col>

@@ -6,14 +6,14 @@ import About from "../components/About";
 import Social from "../components/Social";
 import Footer from "../components/Footer";
 
+
 export default function Main () {
 
   return (
     <>
-      <div className="top-scene-container">
-        <Intro />
-        <ThreeThings />
-      </div>
+      <Intro />
+      <ThreeThings />
+      {/* <div className="top-scene-container"> */}            
       <Portfolio />
       <Skill />
       <About />

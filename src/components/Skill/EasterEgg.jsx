@@ -4,7 +4,7 @@ export default function EasterEgg( {name,id} ) {
 
   return (
     <a
-      href="https://jsohndata.github.io/magic-color-xxl/"
+      href="https://notiempo.lol/mozartsghost/7"
       target="_blank"
       className="easter-egg"
       rel="noreferrer">

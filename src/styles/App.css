@@ -28,7 +28,6 @@ p {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
   background-blend-mode: color;
 }
 
@@ -51,13 +50,16 @@ main p  {
   color: var(--color-light);
 }
 
-
+#about {
+  box-shadow: 0px 20px 120px rgba(16, 1, 26, 0.869);
+}
 
 #three-things {
-  background-color: rgba(12, 4, 23, 0.713);
+  background-color: rgba(28, 4, 23, 0.348);
   box-shadow: inset 0px 50px 60px rgba(10, 9, 3, 0.117);
   text-align: center;
   color: var(--color-light);
+  box-shadow: 0px 20px 120px rgba(16, 1, 26, 0.869);
 }
 
 #three-things .icon {
@@ -78,11 +80,6 @@ main p  {
 
 
 
-/* Gallery Container */
-#portfolio {
-  cursor: pointer;
-}
-
 h2 {
   background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
   background-clip: text;
@@ -98,6 +95,11 @@ h2 span {
   display: block;
   font-size: 60%;
   font-weight: 500;
+}
+
+
+#portfolio {
+  cursor: pointer;
 }
 
 .portfolio-panel {
@@ -151,6 +153,10 @@ h2 span {
   transition: 0.6s ease-in-out;
 }
 
+#portfolio button.button-effect {
+  color: black;
+}
+
 #portfolio .button-effect:hover {
   color: rgba(255, 255, 255, 0.876);
   transform: scale(1.1);
@@ -169,7 +175,8 @@ h2 span {
 
 
 #skills {
-  background-color: rgba(19, 1, 29, 0.402);
+  background-color: rgba(1, 5, 8, 0.348);
+  box-shadow: inset 0px 50px 60px rgba(10, 9, 3, 0.117);
 }
 
 #skills img { 
@@ -181,7 +188,8 @@ h2 span {
 }
 
 #social {
-  max-width: 550px;
+  box-shadow: 0px 0px 60px rgba(211, 182, 17, 0.117);  
+  max-width: 750px;
 }
 
 #social img {
@@ -198,16 +206,11 @@ h2 span {
 }
 
 .button-style {
+  color: #000;
+  font-weight: 700;
   background-image: linear-gradient(72deg, var(--color-highlight-neon), var(--color-highlight-base));
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  border: 1px solid var(--color-highlight-neon);
+  border: 3px solid var(--color-highlight-neon);
 }
-
-
 
 .button-effect {
   display: block;
@@ -247,3 +250,25 @@ h2 span {
 #mozarts-ghost a:hover {
   color: rgb(195, 0, 255);
 }
+
+
+/* 1/4 => Needed for Pan360 */
+.pan360-container {
+  position: relative;  
+}
+
+/* 2/4 => Needed for Pan360 */
+.pan360-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pan360-content {
+  margin-top: 20%;  /* 3/4 */
+  margin-bottom: 20%; /* 4/4 => Needed for Pan360 */
+}
+
+
