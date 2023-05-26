@@ -10,12 +10,13 @@
 
   {
     "id": 2,
-    "name": "BlueNight in Seoul ",
-    "about": "We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to create a clock that displays the current time in Seoul, Korea.",
-    "website": "https://jsohndata.github.io/bluenight-in-seoul",
-    "cover": "port-bluenight.webp",
-    "skill": ["HTML","JavaScript","CSS"]
+    "name": "Cozy Counter",
+    "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
+    "website": "https://jsohndata.github.io/cozy-counter/",
+    "cover": "port-cozycounter.webp",
+    "skill": ["React.js"]
   },
+
 
   {
     "id": 3,
@@ -28,12 +29,14 @@
 
   {
     "id": 4,
-    "name": "Cozy Counter",
-    "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
-    "website": "https://jsohndata.github.io/cozy-counter/",
-    "cover": "port-cozycounter.webp",
-    "skill": ["React.js"]
+    "name": "BlueNight in Seoul ",
+    "about": "We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to create a clock that displays the current time in Seoul, Korea.",
+    "website": "https://jsohndata.github.io/bluenight-in-seoul",
+    "cover": "port-bluenight.webp",
+    "skill": ["HTML","JavaScript","CSS"]
   },
+
+ 
 
   {
     "id": 5,

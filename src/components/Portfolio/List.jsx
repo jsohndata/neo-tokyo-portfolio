@@ -22,7 +22,7 @@ export default function List () {
                     key={element.id}
                     data={element} />
                 : <p>Loading</p>
-            })
+            }).sort().reverse()
         }                
       </Row>
 
