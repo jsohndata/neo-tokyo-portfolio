@@ -39,13 +39,14 @@ export default function Page4() {
               mouseZoom={false} />
           </div>
         
-        <Container fluid className="p-5" id="intro">
+        <Container fluid id="intro">
           <Row className="d-flex 
             justify-content-center
             justify-content-lg-start
             align-items-center">
             <Col xs={11}
-              md={{span:6, offset: 6}}
+              md={{span:6, offset: 5}}
+              lg={{span:5, offset: 5}}
               style={{zIndex: "10"}}>
               
               <div className="media-content">
