@@ -50,6 +50,20 @@ main p  {
   color: var(--color-light);
 }
 
+.icon-smaller {
+  font-size: calc(1.5rem + 2vw);
+}
+
+.icon {
+  font-size: calc(3.5rem + 4vw);
+}
+
+#intro .icon-smaller {
+  display: inline-block;
+  position: relative;
+  top: 14px;
+}
+
 #about {
   box-shadow: 
     0px 100px 250px rgba(146, 11, 236, 0.478),
@@ -66,20 +80,10 @@ main p  {
     0px -20px 40px rgba(236, 11, 213, 0.828);
 }
 
-#three-things .icon {
-  font-size: calc(3.5rem + 4vw);
-}
+
 
 #three-things h3 {
   color: var(--color-highlight);
-}
-
-#three-things a.easter-egg  {
-  cursor: url("/public/cursor/bulbasaur.cur"), auto;
-}
-
-#three-things .easter-egg-2  {
-  cursor: url("/public/cursor/blastoise.cur"), auto;
 }
 
 
@@ -191,9 +195,7 @@ h2 span {
   width: 10%;
 }
 
-#skills a.easter-egg  {
-  cursor: url("/public/cursor/volcarona.cur"), auto;
-}
+
 
 #social {
   box-shadow: 0px 0px 60px rgba(211, 182, 17, 0.117);  
@@ -260,13 +262,28 @@ h2 span {
 }
 
 
+.easter-egg-1  {
+  cursor: url("/public/cursor/bulbasaur.cur"), auto;
+}
+
+.easter-egg-2  {
+  cursor: url("/public/cursor/blastoise.cur"), auto;
+}
+
+.easter-egg-3  {
+  cursor: url("/public/cursor/volcarona.cur"), auto;
+}
+
+
+
+
 /* 1/4 => Needed for Pan360 */
-.pan360-container {
+.media-container {
   position: relative;  
 }
 
 /* 2/4 => Needed for Pan360 */
-.pan360-media {
+.media-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -274,9 +291,13 @@ h2 span {
   height: 100%;
 }
 
-.pan360-content {
+.media-content {
   margin-top: 20%;  /* 3/4 */
   margin-bottom: 20%; /* 4/4 => Needed for Pan360 */
+
+  background-color: rgba(20, 17, 28, 0.806);  
+  padding: 30px;
+  box-shadow: 5px 5px 10px rgba(248, 125, 255, 0.738), -5px -5px 10px rgba(220, 248, 37, 0.31);
 }
 
 

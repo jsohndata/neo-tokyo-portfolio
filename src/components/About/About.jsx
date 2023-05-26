@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col, Image } from "../../utilis/Bootstrap.jsx";
-import ButtonOutline from "../Elements/ButtonOutline.jsx";
+import ButtonOutline from "../common/ButtonOutline.jsx";
 
 export default function About() {
   const[imageIndex, setImageIndex] = useState(0);

@@ -6,7 +6,7 @@ export default function EasterEgg( {name,id} ) {
     <a
       href="https://notiempo.lol/mozartsghost/7"
       target="_blank"
-      className="easter-egg"
+      className="easter-egg-3"
       rel="noreferrer">
         <Image 
           key={id}

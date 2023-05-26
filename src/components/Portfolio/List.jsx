@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
-import ButtonOutline from "../Elements/ButtonOutline.jsx";
+import ButtonOutline from "../common/ButtonOutline.jsx";
 import Panel from "./Panel.jsx";
 import data from "../../data/portfolio.json";
 

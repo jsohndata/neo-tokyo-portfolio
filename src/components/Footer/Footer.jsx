@@ -1,8 +1,11 @@
+import { useContext } from "react";
+import { AppContext} from "../../App.js";
 import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
 import { HashLink } from "react-router-hash-link";
 import { Github } from "react-bootstrap-icons";
 
 export default function Footer() {
+  const [showEaster360, setShowEaster360] = useContext(AppContext);
 
   const githubUrl = "https://github.com/jsohndata/neo-tokyo-portfolio";
   const currentYear = new Date().getFullYear();
@@ -13,7 +16,8 @@ export default function Footer() {
         <Row>
           <Col>
             <HashLink to="#intro">
-              <p className="text-center">👆🏽</p>
+              <p className="text-center" 
+                onClick={()=> setShowEaster360(1)}>👆🏽</p>
             </HashLink>
           </Col>
         </Row>
