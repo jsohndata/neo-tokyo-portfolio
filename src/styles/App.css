@@ -52,8 +52,8 @@ main p  {
 
 #about {
   box-shadow: 
-    0px 100px 90px rgba(146, 11, 236, 0.869),
-    0px 20px 8px rgba(236, 11, 52, 0.828);
+    0px 100px 250px rgba(146, 11, 236, 0.478),
+    0px 25px 30px rgba(236, 11, 52, 0.641);
 }
 
 #three-things {
