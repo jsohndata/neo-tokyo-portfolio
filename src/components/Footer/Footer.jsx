@@ -16,7 +16,7 @@ export default function Footer() {
         <Row>
           <Col>
             <HashLink to="#intro">
-              <p className="text-center" 
+              <p className="text-center icon-smaller" 
                 onClick={()=> setShowEaster360(1)}>👆🏽</p>
             </HashLink>
           </Col>
