@@ -301,3 +301,36 @@ h2 span {
 }
 
 
+footer .icon-smaller {
+  position: relative;  
+
+  animation-name: slideY;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+@keyframes glow {
+  0%   { filter: drop-shadow(0 0 4.75rem rgb(244, 0, 175)); }
+  25%  { filter: drop-shadow(0 0 1.75rem rgb(42, 5, 5)); } 
+  75%  { filter: drop-shadow(0 0 4.75rem rgb(0, 163, 244)); }
+  100% { filter: drop-shadow(0 0 4.75rem rgb(244, 0, 175)); }
+}
+
+@keyframes slideY {
+  0%   { top: -10%; 
+    filter: drop-shadow(0 0 4.75rem rgb(244, 0, 0));
+
+  }
+
+  50%  { top: 10%; 
+  
+    filter: drop-shadow(0 0 1.75rem rgb(42, 5, 5));    
+  } 
+
+  100% { top: -10%; 
+    filter: drop-shadow(0 0 4.75rem rgb(244, 0, 0));
+  }
+}

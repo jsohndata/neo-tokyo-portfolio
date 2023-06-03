@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "image": "super_art_futuritic_city_twlight_detail_busy.webp"
+    "image": "digital_painting_tron_like_world_metropolitan_bu.webp"
   },
   
   {
@@ -37,5 +37,10 @@
   {
     "id": 7,
     "image": "pen__ink_majetic_nature_stunning_on_jupiter_mo.webp"
+  },
+
+  {
+    "id": 8,
+    "image": "super_art_futuritic_city_twlight_detail_busy.webp"
   }
 ]
