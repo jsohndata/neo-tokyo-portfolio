@@ -10,7 +10,7 @@ html { scroll-behavior: smooth; }
 * { font-family: 'Mulish', sans-serif; }
 
 h1 {
-  font-size: clamp(3.2rem, 5vw, 7rem);
+  font-size: clamp(2.0rem, 3.3vw, 6.0rem);
   font-weight: 800;
 }
 

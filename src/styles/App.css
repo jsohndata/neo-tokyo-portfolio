@@ -58,6 +58,12 @@ main p  {
   font-size: calc(3.5rem + 4vw);
 }
 
+#intro {
+  box-shadow: 
+  0px 100px 250px rgba(146, 11, 236, 0.478),
+  0px 25px 30px rgba(236, 11, 52, 0.641);
+}
+
 #intro .icon-smaller {
   display: inline-block;
   position: relative;
@@ -65,10 +71,19 @@ main p  {
 }
 
 #about {
-  box-shadow: 
-    0px 100px 250px rgba(146, 11, 236, 0.478),
-    0px 25px 30px rgba(236, 11, 52, 0.641);
+    animation-name: glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: 0.3s ease-in-out;
 }
+
+@keyframes glow {
+  0%   { filter: drop-shadow(0 0 2.75rem rgb(244, 0, 175, 0.603)); }
+  25%  { filter: drop-shadow(0 0 1.75rem rgba(22, 192, 67, 0.503)); } 
+  75%  { filter: drop-shadow(0 0 1.75rem rgb(0, 163, 244, 0.403)); }
+  100% { filter: drop-shadow(0 0 2.75rem rgb(244, 0, 175, 0.603)); }
+}
+
 
 #three-things {
   background-color: rgba(18, 4, 15, 0.489);
@@ -312,12 +327,7 @@ footer .icon-smaller {
 
 
 
-@keyframes glow {
-  0%   { filter: drop-shadow(0 0 4.75rem rgb(244, 0, 175)); }
-  25%  { filter: drop-shadow(0 0 1.75rem rgb(42, 5, 5)); } 
-  75%  { filter: drop-shadow(0 0 4.75rem rgb(0, 163, 244)); }
-  100% { filter: drop-shadow(0 0 4.75rem rgb(244, 0, 175)); }
-}
+
 
 @keyframes slideY {
   0%   { top: -10%; 
