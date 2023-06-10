@@ -1,3 +1,4 @@
+import NavMenu from "../components/NavMenu"
 import Intro from "../components/Intro";
 import Portfolio from "../components/Portfolio"
 import Skill from "../components/Skill";
@@ -10,7 +11,8 @@ import Footer from "../components/Footer";
 export default function Main () {
 
   return (
-    <>
+    <>  
+      <NavMenu />
       <Intro />
       <ThreeThings />
       {/* <div className="top-scene-container"> */}            

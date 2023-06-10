@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col } from "../../utlis/Bootstrap.jsx";
 // import useBgRand from "../../hook/useBgRand";
 
 export default function ThreeThings() {

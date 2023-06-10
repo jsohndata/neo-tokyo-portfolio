@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col } from "../../utlis/Bootstrap.jsx";
 import skillDev from "../../data/skill-dev.json";
 import skillCreative from "../../data/skill-creative.json";
 import skillPm from "../../data/skill-pm.json";

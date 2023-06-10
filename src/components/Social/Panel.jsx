@@ -1,4 +1,4 @@
-import { Col, Image } from "../../utilis/Bootstrap.jsx";
+import { Col, Image } from "../../utlis/Bootstrap.jsx";
 
 export default function Panel ({element: {title, name, url}}) {
 

@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { AppContext } from "../../App.js";
 import { HashLink } from "react-router-hash-link";
-import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col } from "../../utlis/Bootstrap.jsx";
 import ButtonOutline from "../common/ButtonOutline.jsx";
 import { Pannellum } from "pannellum-react";
 // import bg2 from "./background/pen__ink_inside_a_brickstone_library_tall_stacks.jpg";

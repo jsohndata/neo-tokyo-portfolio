@@ -58,6 +58,11 @@ main p  {
   font-size: calc(3.5rem + 4vw);
 }
 
+nav {
+  background-color: #190503e3;
+  box-shadow: 0px 0px 30px rgba(252, 215, 5, 0.245);  
+}
+
 #intro {
   box-shadow: 
   0px 100px 250px rgba(146, 11, 236, 0.478),

@@ -1,4 +1,4 @@
-import { Button } from "../../utilis/Bootstrap.jsx";
+import { Button } from "../../utlis/Bootstrap.jsx";
 
 export default function ButtonOutline ({text}) {
 

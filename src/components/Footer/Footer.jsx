@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AppContext} from "../../App.js";
-import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col } from "../../utlis/Bootstrap.jsx";
 import { HashLink } from "react-router-hash-link";
 import { Github } from "react-bootstrap-icons";
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col, Image } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col, Image } from "../../utlis/Bootstrap.jsx";
 import ButtonOutline from "../common/ButtonOutline.jsx";
 
 export default function About() {
