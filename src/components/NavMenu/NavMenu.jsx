@@ -1,7 +1,20 @@
-import { Container, Navbar, Nav } from "../../utlis/Bootstrap.jsx";
+import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
+import { Container, Navbar, Nav } from "../../utlis/Bootstrap.jsx";
+
 
 export default function NavMenu() {
+  const [expanded, setExpanded] = useState("🙈");
+
+  const handleToggle = () => { 
+    if(expanded === "🙈") {
+      setExpanded("🐵");
+      document.querySelector(".media-content").style.visibility = "hidden";
+    } else  {
+      setExpanded("🙈");
+      document.querySelector(".media-content").style.visibility = "visible";
+    }
+  }
 
   return (
     <Navbar variant="dark" fixed="top" expand="lg">
@@ -16,7 +29,7 @@ export default function NavMenu() {
             <Nav.Link as={HashLink} to="#skills">Skills</Nav.Link>
             <Nav.Link as={HashLink} to="#about">About</Nav.Link>
             <Nav.Link as={HashLink} to="#social">Social</Nav.Link>
-            <Nav.Link href="mailto:jsohndata@gmail.com?subject=Hi there!">Contact</Nav.Link>
+            <Nav.Link onClick={handleToggle}> {expanded} </Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
