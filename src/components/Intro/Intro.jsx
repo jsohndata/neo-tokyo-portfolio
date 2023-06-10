@@ -47,7 +47,7 @@ export default function Page4() {
             <Col xs={9}
               md={{span:8, offset: 0}}
               lg={{span:5, offset: 5}}
-              style={{zIndex: "10"}}>
+              className="media-content-column">
               
               <div className="media-content">
                 <h1 className="text-center text-lg-start"><span>Hello, my name is</span> Jiho Sohn(손지호)</h1>

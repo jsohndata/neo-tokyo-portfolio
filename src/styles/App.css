@@ -101,11 +101,9 @@ nav {
 }
 
 
-
 #three-things h3 {
   color: var(--color-highlight);
 }
-
 
 
 h2 {
@@ -131,7 +129,6 @@ h2 span {
   box-shadow: 
     0px 50px 300px rgba(63, 13, 96, 0.151),
     0px 10px 10px rgba(236, 11, 52, 0.14);
-  
 }
 
 .portfolio-panel {
@@ -295,8 +292,6 @@ h2 span {
 }
 
 
-
-
 /* 1/4 => Needed for Pan360 */
 .media-container {
   position: relative;  
@@ -311,13 +306,30 @@ h2 span {
   height: 100%;
 }
 
+/* custom cursor Pan360 */
+.pnlm-grab {
+  cursor: url("/public/cursor/mewtwo.cur"), auto;
+}
+
 .media-content {
   margin-top: 20%;  /* 3/4 */
-  margin-bottom: 20%; /* 4/4 => Needed for Pan360 */
+  margin-bottom: 10%; /* 4/4 => Needed for Pan360 */
 
   background-color: rgba(20, 17, 28, 0.806);  
   padding: 30px;
   box-shadow: 5px 5px 10px rgba(248, 125, 255, 0.738), -5px -5px 10px rgba(220, 248, 37, 0.31);
+}
+
+.media-content-column {
+  z-index: 10;
+  opacity: 1;
+  transition: opacity 1.9s ease-in-out;
+}
+
+.media-content-column-hide {
+  z-index: -999;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 
@@ -332,16 +344,12 @@ footer .icon-smaller {
 
 
 
-
-
 @keyframes slideY {
   0%   { top: -10%; 
     filter: drop-shadow(0 0 4.75rem rgb(244, 0, 0));
-
   }
 
   50%  { top: 10%; 
-  
     filter: drop-shadow(0 0 1.75rem rgb(42, 5, 5));    
   } 
 

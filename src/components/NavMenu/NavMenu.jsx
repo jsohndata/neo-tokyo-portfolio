@@ -9,15 +9,15 @@ export default function NavMenu() {
   const handleToggle = () => { 
     if(expanded === "🙈") {
       setExpanded("🐵");
-      document.querySelector(".media-content").style.visibility = "hidden";
+      document.querySelector(".media-content").classList.add("media-content-column-hide");
     } else  {
       setExpanded("🙈");
-      document.querySelector(".media-content").style.visibility = "visible";
+      document.querySelector(".media-content").classList.remove("media-content-column-hide");
     }
   }
 
   return (
-    <Navbar variant="dark" fixed="top" expand="lg">
+    <Navbar variant="dark" fixed="top" expand="md">
       <Container>
         
         <Navbar.Brand as={HashLink} to="#intro">jSohnData</Navbar.Brand>
@@ -29,8 +29,7 @@ export default function NavMenu() {
             <Nav.Link as={HashLink} to="#skills">Skills</Nav.Link>
             <Nav.Link as={HashLink} to="#about">About</Nav.Link>
             <Nav.Link as={HashLink} to="#social">Social</Nav.Link>
-            <Nav.Link onClick={handleToggle}> {expanded} </Nav.Link>
-            
+            <Nav.Link onClick={handleToggle}> {expanded} </Nav.Link>       
           </Nav>
         </Navbar.Collapse>
       </Container>
