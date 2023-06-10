@@ -44,7 +44,7 @@ export default function Page4() {
             justify-content-center
             justify-content-lg-start
             align-items-center">
-            <Col xs={9}
+            <Col xs={11}
               md={{span:8, offset: 0}}
               lg={{span:5, offset: 5}}
               className="media-content-column">
