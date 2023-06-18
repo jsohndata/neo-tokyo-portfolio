@@ -5,6 +5,11 @@
   },
 
   {
+    "id": 2012, 
+    "name": "typescript"
+  },  
+
+  {
     "id": 202, 
     "name": "python"
   },
