@@ -2,3 +2,5 @@
 User-agent: *
 Disallow: /creative/
 Disallow: /neo-tokyo-portfolio/creative/
+Disallow: /reference.pdf
+Disallow: /resume.pdf
