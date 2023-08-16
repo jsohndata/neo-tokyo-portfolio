@@ -9,6 +9,15 @@
   },
 
   {
+    "id": 11,
+    "name": "Magic Color XXL",
+    "about": "What started as a random hex color generator, a class project at BocaCode C-9, turned into a fun experimental site while jamming to music.",
+    "website": "https://jsohndata.github.io/magic-color-xxl/",
+    "cover": "port-magic-color-xxl.webp",
+    "tech": "HTML/CSS, JavaScript"
+  },  
+
+  {
     "id": 20,
     "name": "Cozy Counter",
     "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
@@ -62,6 +71,15 @@
     "website": "https://jsohndata.github.io/quizz-app",
     "cover": "port-quizz-app.webp",
     "tech": "React.js, Bootstrap"
+  },
+
+  {
+    "id": 51,
+    "name": "Ass En Fuego API",
+    "about": "This is an Express API designed to serve various types of data, such as JSON and images, and it has been deployed on Firebase on Google Cloud Platform (GCP). It was specifically created for BocaCode C-9.",
+    "website": "https://assenfuego.com/",
+    "cover": "port-ass-en-fugeo.webp",
+    "tech": "Express.js, MongoDB"
   },
 
   {
