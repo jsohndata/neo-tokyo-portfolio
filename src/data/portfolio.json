@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 10,
     "name": "Kardashev Scale",
     "about": "In Week 4 of BocaCode (C-10), students are taught the fundamentals of web development, including HTML and CSS. As part of the class project, we applied this knowledge to create a web page that explains the concept of the Kardashev Scale.",
     "website": "https://jsohndata.github.io/kardashev-scale/",
@@ -9,17 +9,34 @@
   },
 
   {
-    "id": 2,
+    "id": 20,
     "name": "Cozy Counter",
     "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
     "website": "https://jsohndata.github.io/cozy-counter/",
     "cover": "port-cozycounter.webp",
     "tech": "React.js"
   },
-
+  
+  {
+    "id": 21,
+    "name": "System Overload Solution",
+    "about": "In this game, player must repair the damaged ship by gathering energy spheres and investigating an unknown alien object which collided with the ship.",
+    "website": "https://system-overload-solution.web.app/",
+    "cover": "port-sos.webp",
+    "tech": "Unity 3D"
+  },
 
   {
-    "id": 3,
+    "id": 22,
+    "name": "Bubble Trails",
+    "about": "Fun experimental project creating bubbles trails based on mouse movement.",
+    "website": "https://jsohndata.github.io/bubble-trails/",
+    "cover": "port-bubble-trails.webp",
+    "tech": "HTML/CSS, JavaScript"
+  },
+
+  {
+    "id": 30,
     "name": "Cogito Ergo Sum",
     "about": "This is a mini profile page created using React.js and Bootstrap based on Rene Descartes' famous philosophical statement \"Ergo Cogito Sum\" which means \"I think, therefore I am.\"",
     "website": "https://jsohndata.github.io/cogito-ergo-sum/",
@@ -28,7 +45,7 @@
   },  
 
   {
-    "id": 4,
+    "id": 40,
     "name": "BlueNight in Seoul ",
     "about": "We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to create a clock that displays the current time in Seoul, Korea.",
     "website": "https://jsohndata.github.io/bluenight-in-seoul",
@@ -39,7 +56,7 @@
  
 
   {
-    "id": 5,
+    "id": 50,
     "name": "Quizz App",
     "about": "A quiz application designed for studying about the usage of useState() and props in React.js.",
     "website": "https://jsohndata.github.io/quizz-app",
@@ -48,7 +65,7 @@
   },
 
   {
-    "id": 6,
+    "id": 60,
     "name": "Synthational",
     "about": "Immersing oneself in the world of AI-generated images that span diverse styles, from surreal illustrations and hyper-realistic photographs to anime, all while grooving to some dope music and giving free rein to the imagination to run wild.",
     "website": "https://jsohndata.github.io/synthational/",
@@ -56,17 +73,10 @@
     "tech": "React.js, Bootstrap, Generative AI"
   },
 
-  {
-    "id": 7,
-    "name": "No Tiempo API",
-    "about": "This is an Express API that enables CRUD operations on MongoDB, as well as serving AI-generated images and other related services. It is deployed on Firebase, hosted on the Google Cloud Platform (GCP), and exclusively dedicated to Cohort 10 (C-10)...period!",
-    "website": "https://notiempo.lol/",
-    "cover": "port-no-tiempo-api.webp",
-    "tech": "Express.js, MongoDB, Generative AI"
-  },
+
 
   {
-    "id": 8,
+    "id": 80,
     "name": "Late Night Background Jam",
     "about": "Created during a music-infused late-night session, this compilation showcases an array of captivating background animations achieved through CSS animation and mp4 integration. Developed using React and Bootstrap 5, these visual effects come together to create an immersive experience dedicated to C-10.",
     "website": "https://jsohndata.github.io/late-night-background-jam/",
@@ -75,13 +85,41 @@
   },
 
   {
-    "id": 9,
+    "id": 90,
     "name": "Terra Mater CSS Animation",
     "about": "The investigation of a range of CSS animation techniques, including transform and keyframes, combined with the utilization of generative AI to create retro-futuristic themed images.",
     "website": "https://jsohndata.github.io/terra-mater-css-animation/",
     "cover": "port-terra-mater.webp",
     "tech": "React.js, Sass, Bootstrap, Generative AI"
+  },
+
+  {
+    "id": 91,
+    "name": "No Tiempo API",
+    "about": "This is an Express API that enables CRUD operations on MongoDB, as well as serving AI-generated images and other related services. It is deployed on Firebase, hosted on the Google Cloud Platform (GCP), and exclusively dedicated to Cohort 10 (C-10)...period!",
+    "website": "https://notiempo.lol/",
+    "cover": "port-no-tiempo-api.webp",
+    "tech": "Express.js, MongoDB, Generative AI"
+  },
+
+  {
+    "id": 100,
+    "name": "Who, What, Where Quiz App",
+    "about": "Created a quiz app using React.js in the category of travel (where), famous people (who) and movie(what). This app utilizes useState() hook and Props to handle data flow from a JSON file. Created during C-11.",
+    "website": "https://jsohndata.github.io/who-what-where-quiz-app/",
+    "cover": "port-who-what-where-quiz-app.webp",
+    "tech": "React.js, Particle.js"
+  },
+
+  {
+    "id": 110,
+    "name": "Edited By Catherine",
+    "about": "Services include in-depth developmental editing, project and career consultation, query editing, and smaller project editorial support.",
+    "website": "https://editedbycatherine.com/",
+    "cover": "port-edited-by-catherine.webp",
+    "tech": "React.js, Bootstrap"
   }
+
 
   
 ]
