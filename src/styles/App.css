@@ -175,6 +175,10 @@ h2 span {
   border: 0;
 }
 
+.portfolio-panel .tech {
+  color: rgba(212, 217, 166, 0.644);
+}
+
 #portfolio .button-effect {
   color: rgba(183, 177, 177, 0.444);
   display: block;

@@ -21,7 +21,7 @@ export default function Panel ({ data:{id, name, about, website, cover, tech} })
           <h3>{name}</h3>
           <p>{about}</p>
           <hr />
-          <p>{tech}</p>
+          <p className="tech">{tech}</p>
         </div>
       </Card>
     </Col>
