@@ -5,7 +5,7 @@
     "about": "In Week 4 of BocaCode (C-10), students are taught the fundamentals of web development, including HTML and CSS. As part of the class project, we applied this knowledge to create a web page that explains the concept of the Kardashev Scale.",
     "website": "https://jsohndata.github.io/kardashev-scale/",
     "cover": "port-kardashev-scale.webp",
-    "skill": ["HTML","CSS"]
+    "tech": "HTML,CSS"
   },
 
   {
@@ -14,7 +14,7 @@
     "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
     "website": "https://jsohndata.github.io/cozy-counter/",
     "cover": "port-cozycounter.webp",
-    "skill": ["React.js"]
+    "tech": "Reactj"
   },
 
 
@@ -24,7 +24,7 @@
     "about": "This is a mini profile page created using React.js and Bootstrap based on Rene Descartes' famous philosophical statement \"Ergo Cogito Sum\" which means \"I think, therefore I am.\"",
     "website": "https://jsohndata.github.io/cogito-ergo-sum/",
     "cover": "port-cogito.webp",
-    "skill": ["React.js"]
+    "tech": "Reactj"
   },  
 
   {
@@ -33,7 +33,7 @@
     "about": "We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to create a clock that displays the current time in Seoul, Korea.",
     "website": "https://jsohndata.github.io/bluenight-in-seoul",
     "cover": "port-bluenight.webp",
-    "skill": ["HTML","JavaScript","CSS"]
+    "tech": "HTML,JavaScript,CSS"
   },
 
  
@@ -44,7 +44,7 @@
     "about": "A quiz application designed for studying about the usage of useState() and props in React.js.",
     "website": "https://jsohndata.github.io/quizz-app",
     "cover": "port-quizz-app.webp",
-    "skill": ["React.js"]
+    "tech": "React.js"
   },
 
   {
@@ -53,7 +53,7 @@
     "about": "Immersing oneself in the world of AI-generated images that span diverse styles, from surreal illustrations and hyper-realistic photographs to anime, all while grooving to some dope music and giving free rein to the imagination to run wild.",
     "website": "https://jsohndata.github.io/synthational/",
     "cover": "port-synthational.webp",
-    "skill": ["React.js"]
+    "tech": "React.js"
   },
 
   {
@@ -62,7 +62,7 @@
     "about": "This is an Express API that enables CRUD operations on MongoDB, as well as serving AI-generated images and other related services. It is deployed on Firebase, hosted on the Google Cloud Platform (GCP), and exclusively dedicated to Cohort 10 (C-10)...period!",
     "website": "https://notiempo.lol/",
     "cover": "port-no-tiempo-api.webp",
-    "skill": ["React.js"]
+    "tech": "React.js"
   },
 
   {
@@ -71,7 +71,7 @@
     "about": "Created during a music-infused late-night session, this compilation showcases an array of captivating background animations achieved through CSS animation and mp4 integration. Developed using React and Bootstrap 5, these visual effects come together to create an immersive experience dedicated to C-10.",
     "website": "https://jsohndata.github.io/late-night-background-jam/",
     "cover": "port-late-night-background-jam.webp",
-    "skill": ["React.js"]
+    "tech": "React.js"
   },
 
   {
@@ -80,7 +80,7 @@
     "about": "The investigation of a range of CSS animation techniques, including transform and keyframes, combined with the utilization of generative AI to create retro-futuristic themed images.",
     "website": "https://jsohndata.github.io/terra-mater-css-animation/",
     "cover": "port-terra-mater.webp",
-    "skill": ["React.js"]
+    "tech": "React.js"
   }
 
   

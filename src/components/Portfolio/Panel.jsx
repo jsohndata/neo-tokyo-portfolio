@@ -1,6 +1,6 @@
 import { Col, Card } from "react-bootstrap";
 
-export default function Panel ({ data:{id, name, about, website, cover} }) {
+export default function Panel ({ data:{id, name, about, website, cover, tech} }) {
 
   // const handleSiteLaunch = websiteUrl => {
   //   console.log(websiteUrl);
@@ -20,6 +20,8 @@ export default function Panel ({ data:{id, name, about, website, cover} }) {
         <div className="content">
           <h3>{name}</h3>
           <p>{about}</p>
+          <hr />
+          <p>{tech}</p>
         </div>
       </Card>
     </Col>
