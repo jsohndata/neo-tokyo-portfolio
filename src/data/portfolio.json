@@ -109,6 +109,15 @@
     "tech": "React.js, Bootstrap"
   },
 
+  {
+    "id": 62,
+    "name": "BocaCode C-10 Portfolio",
+    "about": "Congratulations to BocaCode's Cohort 10 for successfully completing a challenging 10-week course and impressing us with their incredible final project! We applaud the 18 outstanding students who have truly amazed us with their brilliance. Well done, you all!",
+    "website": "https://jsohndata.github.io/bocacode-c10-final-project-portfolio/",
+    "cover": "port-c10.webp",
+    "tech": "React.js, Bootstrap, Sass"
+  },
+
 
 
   {
