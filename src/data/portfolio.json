@@ -18,6 +18,15 @@
   },  
 
   {
+    "id": 12,
+    "name": "Common JavaScript Math Methods",
+    "about": "Exploring 5 common methods used with the Math object in JavaScript: Random, Floor, Ceil, Round, and Trunc. Created for BocaCode C-9.",
+    "website": "https://jsohndata.github.io/common-javascript-math-methods/",
+    "cover": "port-math.webp",
+    "tech": "HTML/CSS, JavaScript"
+  },    
+
+  {
     "id": 20,
     "name": "Cozy Counter",
     "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
