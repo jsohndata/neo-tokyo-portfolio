@@ -100,6 +100,15 @@
     "tech": "React.js, Bootstrap, Generative AI"
   },
 
+  {
+    "id": 61,
+    "name": "BocaCode C-9 Portfolio",
+    "about": "BocaCode's Cohort 9 (C-9) have completed their final project after a challenging 10-week course, and we congratulate them on their remarkable achievement.",
+    "website": "https://jsohndata.github.io/bocacode-c9-final-project-portfolio/",
+    "cover": "port-c9.webp",
+    "tech": "React.js, Bootstrap"
+  },
+
 
 
   {
