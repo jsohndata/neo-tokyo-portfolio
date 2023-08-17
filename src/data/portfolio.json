@@ -112,6 +112,15 @@
   },
 
   {
+    "id": 81,
+    "name": "Star Music 星音樂",
+    "about": "Star Music is an terran based otherworldly music label, known for its extraterrestrial band that hails from all 13 solar systems, captivating audiences with their cosmic melodies and intergalactic beats, bringing a whole new dimension to the music industry. Study of Generative AI. CSS, FlexBox, and HTML for C-11.",
+    "website": "https://jsohndata.github.io/star-music/",
+    "cover": "port-star-music.webp",
+    "tech": "HTML/CSS, Generative AI"
+  },  
+
+  {
     "id": 90,
     "name": "Terra Mater CSS Animation",
     "about": "The investigation of a range of CSS animation techniques, including transform and keyframes, combined with the utilization of generative AI to create retro-futuristic themed images.",
