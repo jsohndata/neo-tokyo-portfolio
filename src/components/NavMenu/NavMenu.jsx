@@ -27,6 +27,7 @@ export default function NavMenu() {
             <Nav.Link as={HashLink} to="#three-things">3 Things</Nav.Link>
             <Nav.Link as={HashLink} to="#portfolio">Portfolio</Nav.Link>
             <Nav.Link as={HashLink} to="#skills">Skills</Nav.Link>
+            <Nav.Link as={HashLink} to="#videos">Videos</Nav.Link>
             <Nav.Link as={HashLink} to="#about">About</Nav.Link>
             <Nav.Link as={HashLink} to="#social">Social</Nav.Link>
             <Nav.Link onClick={handleToggle}> {expanded} </Nav.Link>       

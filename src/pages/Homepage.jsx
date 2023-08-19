@@ -20,7 +20,7 @@ export default function Main () {
       {/* <div className="top-scene-container"> */}            
       <Portfolio />
       <Video />
-      <Skill />s      
+      <Skill />   
       <About />
       <div className="bottom-scene-container">
         <Social />
