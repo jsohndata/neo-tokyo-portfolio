@@ -3,8 +3,14 @@ import { Container, Row, Col } from "../../utlis/Bootstrap.jsx";
 export default function Video ( ) {
 
   return (
-    <section>
-      <Container fluid id="video" >        
+    <secion>
+      <Container fluid id="video">
+        <Row>
+          <Col>
+            <h2 className="text-center">Generative AI Videos</h2>
+          </Col>
+        </Row>
+
         <Row className="d-flex justify-content-center">
           <Col sm={12}>
             <div className="ratio ratio-16x9 ">
@@ -12,6 +18,6 @@ export default function Video ( ) {
           </Col>
         </Row>
       </Container>
-    </section>
+    </secion>
   );
 }
