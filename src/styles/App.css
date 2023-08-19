@@ -131,6 +131,10 @@ h2 span {
     0px 10px 10px rgba(236, 11, 52, 0.14);
 }
 
+#videos {
+background-color: #0d1c2d;
+}
+
 .portfolio-panel {
   border:0;
   transition: filter 0.6s ease-in-out;
