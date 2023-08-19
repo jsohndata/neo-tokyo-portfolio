@@ -1,18 +1,14 @@
 import { Container, Row, Col } from "../../utlis/Bootstrap.jsx";
 
-export default function Video () {
+export default function Video ( ) {
 
   return (
     <section>
-      <Container fluid id="skills" className="p-5">        
-        <Row>
-          <Col className="text-center">
-            <iframe width="100%" height="315" 
-              src="https://www.youtube.com/embed/Zlr2UKFPm8Y" 
-              title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>                
-            </iframe>
+      <Container fluid id="video" >        
+        <Row className="d-flex justify-content-center">
+          <Col sm={12}>
+            <div className="ratio ratio-16x9 ">
+              <iframe src='https://widgets.sociablekit.com/youtube-playlist-videos/iframe/182278' frameborder='0' width='100%' height='1000'></iframe>            </div>
           </Col>
         </Row>
       </Container>

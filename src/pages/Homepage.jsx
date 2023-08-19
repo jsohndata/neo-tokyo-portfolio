@@ -4,8 +4,10 @@ import Portfolio from "../components/Portfolio"
 import Skill from "../components/Skill";
 import ThreeThings from "../components/ThreeThings";
 import About from "../components/About";
+import Video from "../components/Video";
 import Social from "../components/Social";
 import Footer from "../components/Footer";
+
 
 
 export default function Main () {
@@ -17,7 +19,8 @@ export default function Main () {
       <ThreeThings />
       {/* <div className="top-scene-container"> */}            
       <Portfolio />
-      <Skill />
+      <Video />
+      <Skill />s      
       <About />
       <div className="bottom-scene-container">
         <Social />
