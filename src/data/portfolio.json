@@ -139,12 +139,21 @@
   },  
 
   {
+    "id": 82,
+    "name": "GAS: Generative AI Story",
+    "about": "🚀 As part of the MERIN UX/UI internship for C-10, this project introduces students to the realm of generative AI, combining it with animation morphing techniques to empower them in crafting dynamic and interactive user experiences.",
+    "website": "https://jsohndata.github.io/gas-generative-ai-story/",
+    "cover": "port-gas.webp",
+    "tech": "React.js, Sass, Bootstrap, Generative AI"
+  },  
+
+  {
     "id": 90,
     "name": "Terra Mater CSS Animation",
     "about": "The investigation of a range of CSS animation techniques, including transform and keyframes, combined with the utilization of generative AI to create retro-futuristic themed images.",
     "website": "https://jsohndata.github.io/terra-mater-css-animation/",
     "cover": "port-terra-mater.webp",
-    "tech": "React.js, Sass, Bootstrap, Generative AI"
+    "tech": "React.js, TypeScript, Sass, Bootstrap, Generative AI"
   },
 
   {
