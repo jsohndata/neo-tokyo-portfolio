@@ -51,7 +51,7 @@ export default function Page4() {
               
               <div className="media-content">
                 <h1 className="text-center text-lg-start"><span>Hello, my name is</span> Jiho Sohn(손지호)</h1>
-                <p>I am a Digital Project Manager, UX/UI Front-End Developer residing in south Florida. I love JavaScript, React.js, Sass, and Generative AI! When I'm not crafting code, you will find me tending to my garden, keeping my Belgian Malinois on her toes (paws), and revving up my Ducati like an API – such is a RESTful day.</p>
+                <p>By day, I run with the web team at a marketing agency in South Florida, weaving magic with UX/UI, Low-Code No-Code-ism, and a sprinkle of AI. After hours, you’ll find me in my garden, keeping my Belgian Malinois on her paws, or revving up my Scrambler like I'm in Mad Max. I love inspiring future minds with my passion for Generative AI, blending curiosity, imagination, and innovation with a hearty dash of humor.</p>
                 
                 <div className="text-center text-md-center text-lg-start">
                   <HashLink to="/#portfolio">
