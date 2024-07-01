@@ -268,25 +268,6 @@ background-color: #0d1c2d;
   }
 }
 
-#mozarts-ghost {
-  position: fixed;
-  opacity: 1;
-  bottom: 0;
-  left: 10px;
-  padding: 10px;
-}
-
-#mozarts-ghost a:link,
-#mozarts-ghost a:visited {
-  color: rgb(164, 164, 235);
-  text-decoration: none;
-}
-
-#mozarts-ghost a:hover {
-  color: rgb(195, 0, 255);
-}
-
-
 .easter-egg-1  {
   cursor: url("/public/cursor/bulbasaur.cur"), auto;
 }
