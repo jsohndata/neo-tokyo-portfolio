@@ -4,10 +4,6 @@
     "name": "javascript"
   },
 
-  {
-    "id": 2012, 
-    "name": "typescript"
-  },  
 
   {
     "id": 203, 
@@ -25,11 +21,6 @@
   },
 
   {
-    "id": 206, 
-    "name": "mongo"
-  },
-
-  {
     "id": 207, 
     "name": "react"
   },
@@ -37,22 +28,6 @@
   {
     "id": 208, 
     "name": "bootstrap"
-  },  
-
-  {
-    "id": 2081, 
-    "name": "tailwind"
-  },  
-
-  {
-    "id": 209, 
-    "name": "express"
-  },
-
-  {
-    "id": 210, 
-    "name": "sass"
   }
-
 
 ]
